@@ -8,8 +8,18 @@
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 <script type="text/javascript">
-$('.ajax-popup-link').magnificPopup({
-  type: 'ajax'
+$(document).ready(function() {
+
+	$('.simple-ajax-popup-align-top').magnificPopup({
+		type: 'ajax',
+		alignTop: true,
+		overflowY: 'scroll' // as we know that popup content is tall we set scroll overflow by default to avoid jump
+	});
+
+	$('.simple-ajax-popup').magnificPopup({
+		type: 'ajax'
+	});
+	
 });
 </script>
 
@@ -63,7 +73,7 @@ $('.ajax-popup-link').magnificPopup({
    <img src="https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/FOLLETOS/F12.png" alt="FolletoLab2017" title="Folleto laboratorio Dent-thel"></a>
 </div>-->
 
-<div class="IMAGECOL"><a href="https://view.publitas.com/dstudio/ofertas-dent-thel-clinica-4-2017/" class="ajax-popup-link" >
+<div class="IMAGECOL"><a href="https://view.publitas.com/dstudio/ofertas-dent-thel-clinica-4-2017/" class="simple-ajax-popup" >
    <img src="https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/FOLLETOS/F12.png" alt="FolletoLab2017" title="Folleto laboratorio Dent-thel"></a>
    </div>
 <div class="INFOCOL"><span class="SUJET">Folleto ofertas de productos para laboratorio dental</span><br><div class="LINE"></div><span class="EMPRESA">Dent*thel</span><br><div class="LINE2"></div><span class="FECHA">Octubre-diciembre 2017</span>
