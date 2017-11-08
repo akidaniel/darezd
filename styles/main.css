@@ -309,6 +309,7 @@ min-height:350px;
     max-height:100%;
     margin-left:-50%;}
 }
+
 @media only screen and (max-width:500px){
 #FRAME {
 -ms-flex-preferred-size:100%;
