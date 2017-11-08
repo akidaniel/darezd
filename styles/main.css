@@ -316,7 +316,7 @@ padding: 0 3.5rem 0 3.5rem;
 .INFOCOL {min-height:100%; max-width:100%;}
 }
 /*@media only screen and (max-width:750px){*/
-@media all and (min-width:569px) and (max-width: 768px) {/* and (min-height:490px)*/
+@media all and (min-width:569px) and (max-width: 1190px) {/* and (min-height:490px)*/
 
 .CONTAINER {
 padding: 0px 3rem 0 3rem;
@@ -329,18 +329,17 @@ height: 20.55rem;
 }
 
 .CABECERA {font-size:6rem; margin-bottom:1rem}
-
 .IMAGECOL {
     left:50%;}
 .IMAGECOL img {position:relative;
     max-width:100%;
     max-height:100%;
     margin-left:-50%;}
-.INFOCOL {min-width:100%;max-height:100%;
+.INFOCOL {min-width:100%;max-height:100%; width: 100%;
 }
 }
-/*@media only screen and (max-width:950px){*/
-@media all and (min-width:769px) and (max-width: 960px) {/* and (min-height:600px)*/
+/*@media only screen and (max-width:950px){
+@media all and (min-width:769px) and (max-width: 960px) {/* and (min-height:600px)
 
 .CONTAINER {
 padding: 0px 3rem 0 3rem;
@@ -376,7 +375,7 @@ max-width:25%;
 /*height: 15rem;*/
 }
 }
-@media all and (min-width:961px) and (max-width: 1190px) {/* and (min-height:600px)*/
+/*@media all and (min-width:961px) and (max-width: 1190px) {/* and (min-height:600px)
 .CONTAINER {
 padding: 0px 3rem 0 3rem;
 }
@@ -400,7 +399,7 @@ max-width: 100%;
 min-height:100%;
 width:100%;
 }
-}
+}*/
 @media all and (min-width:1455px) and (max-width: 2000px) {/* and (min-height:600px)*/
 .CABECERA {font-size:6rem; margin-bottom:1rem}
 
