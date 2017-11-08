@@ -123,7 +123,7 @@ width: 100%;
 .EMPRESA {color: #FF0004;
 font-weight:800;
 line-height:0.8rem}
-.FECHA {color: #b0b1c8;
+.FECHA {color: darkmagenta;
 line-height:1.35rem}
 .CABECERA{font-size:4rem;
 white-space:nowrap;
@@ -291,7 +291,7 @@ padding: 0 1.5rem 0 1.5rem;
 .INFOCOL { min-width:100%;}
 .popup img {max-width: 90%;
 }
-.NAME {font-weight: 200;
+.NAME {
 font-size: 1.6rem;
 letter-spacing:0.4rem;}
 
