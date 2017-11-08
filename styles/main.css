@@ -35,7 +35,7 @@ padding:0;
 margin:0;
 font-size:1.15rem;
 font-family:HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
-font-weight:400;
+font-weight:500;
 background:#f6f7fd;
 line-height:1.2rem;
 color: #62647b;
@@ -123,8 +123,9 @@ width: 100%;
 .EMPRESA {color: #FF0004;
 font-weight:800;
 line-height:0.8rem}
-.FECHA {color: darkmagenta;
-line-height:1.35rem}
+.FECHA {
+line-height:1.35rem;
+font-weight:300;}
 .CABECERA{font-size:4rem;
 white-space:nowrap;
 margin-bottom:1rem;
