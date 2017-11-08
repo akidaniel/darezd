@@ -263,69 +263,80 @@ background-image: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICON
 filter:hue-rotate(0deg) saturate(0.2) brightness(3);
 }
 
-@media only screen and (min-width:2001px){/* and (min-height:600px)*/
-.CABECERA {font-size:6rem; margin-bottom:1rem}
+
+
+/*@media only screen and (max-width:400px){*/
+@media all and (min-width:0px) and (max-width: 480px) {/* and (min-height:490px)*/
 
 #FRAME {
--ms-flex-preferred-size:16%;
-flex-basis:16%;
-max-width:16%;
+-ms-flex-preferred-size:100%;
+flex-basis:100%;
+max-width:100%;
+display:inline;
+height: 100%;
+}
+.IMAGECOL {
+    left:50%;}
+.IMAGECOL img {position:relative;
+    max-width:100%;
+    max-height:100%;
+    margin-left:-50%;}
+
+.CONTAINER {
+padding: 0 1.5rem 0 1.5rem;
+}
+.CABECERA{font-size:4rem; margin-bottom:1rem;
+}
+.INFOCOL { min-width:100%;}
+.popup img {max-width: 90%;
+}
+}
+
+
+/*@media only screen and (max-width:500px){*/
+@media all and (min-width:481px) and (max-width: 568px) {/* and (min-height:490px)*/
+
+#FRAME {
+-ms-flex-preferred-size:100%;
+flex-basis:100%;
+max-width:100%;
+display:flex;
 /*height: 15rem;*/
 }
+.CONTAINER {
+padding: 0 3.5rem 0 3.5rem;
 }
-@media all and (min-width:1455px) and (max-width: 2000px) {/* and (min-height:600px)*/
-.CABECERA {font-size:6rem; margin-bottom:1rem}
+.CABECERA{font-size:4rem; margin-bottom:1rem;
+}
+.IMAGECOL {
+    left:0%;}
+.IMAGECOL img {max-width:100%;
+    max-height:100%;
+    margin-left:0%;}
+.INFOCOL {min-height:100%; max-width:100%;}
+}
+/*@media only screen and (max-width:750px){*/
+@media all and (min-width:569px) and (max-width: 768px) {/* and (min-height:490px)*/
 
-#FRAME {
--ms-flex-preferred-size:20%;
-flex-basis:20%;
-max-width:20%;
-/*height: 15rem;*/
-}
-}
-/*@media only screen and (max-width:1470px){*/
-@media all and (min-width:1191px) and (max-width: 1454px) {/* and (min-height:600px)*/
-.CABECERA {font-size:6rem; margin-bottom:1rem}
-
-#FRAME {
--ms-flex-preferred-size:25%;
-flex-basis:25%;
-max-width:25%;
-/*height: 15rem;*/
-}
-}
-/*@media only screen and (max-width:1200px){
-@media all and (min-width:801px) and (max-width: 959px) {
-#FRAME {
--ms-flex-preferred-size:33%;
-flex-basis:33%;
-max-width:33%;
-}
-}*/
-
-@media all and (min-width:961px) and (max-width: 1190px) {/* and (min-height:600px)*/
 .CONTAINER {
 padding: 0px 3rem 0 3rem;
 }
-.CABECERA {font-size:6rem; margin-bottom:1rem}
-	
-#FRAME {
-display:inline;
-min-height: 100%;
--ms-flex-preferred-size:25%;
-flex-basis:25%;
-max-width:25%;
-max-height:100%;
-height: 24rem;
+#FRAME {display:inline;
+-ms-flex-preferred-size:50%;
+flex-basis:50%;
+max-width:50%;
+height: 20.55rem;
 }
-.IMAGECOL {-ms-flex-preferred-size: 100%;
-flex-basis: 100%;
-max-width: 100%;}
-.INFOCOL {-ms-flex-preferred-size: 100%;
-flex-basis: 100%;
-max-width: 100%;
-min-height:100%;
-width:100%;
+
+.CABECERA {font-size:6rem; margin-bottom:1rem}
+
+.IMAGECOL {
+    left:50%;}
+.IMAGECOL img {position:relative;
+    max-width:100%;
+    max-height:100%;
+    margin-left:-50%;}
+.INFOCOL {min-width:100%;max-height:100%;
 }
 }
 /*@media only screen and (max-width:950px){*/
@@ -354,78 +365,60 @@ width:100%;
 }
 .CABECERA {font-size:6rem; margin-bottom:1rem}
 }
+/*@media only screen and (max-width:1470px){*/
+@media all and (min-width:1191px) and (max-width: 1454px) {/* and (min-height:600px)*/
+.CABECERA {font-size:6rem; margin-bottom:1rem}
 
-
-/*@media only screen and (max-width:750px){*/
-@media all and (min-width:569px) and (max-width: 768px) {/* and (min-height:490px)*/
-
+#FRAME {
+-ms-flex-preferred-size:25%;
+flex-basis:25%;
+max-width:25%;
+/*height: 15rem;*/
+}
+}
+@media all and (min-width:961px) and (max-width: 1190px) {/* and (min-height:600px)*/
 .CONTAINER {
 padding: 0px 3rem 0 3rem;
 }
-#FRAME {display:inline;
--ms-flex-preferred-size:50%;
-flex-basis:50%;
-max-width:50%;
-height: 20.55rem;
+.CABECERA {font-size:6rem; margin-bottom:1rem}
+	
+#FRAME {
+display:inline;
+min-height: 100%;
+-ms-flex-preferred-size:25%;
+flex-basis:25%;
+max-width:25%;
+max-height:100%;
+height: 24rem;
 }
-
+.IMAGECOL {-ms-flex-preferred-size: 100%;
+flex-basis: 100%;
+max-width: 100%;}
+.INFOCOL {-ms-flex-preferred-size: 100%;
+flex-basis: 100%;
+max-width: 100%;
+min-height:100%;
+width:100%;
+}
+}
+@media all and (min-width:1455px) and (max-width: 2000px) {/* and (min-height:600px)*/
 .CABECERA {font-size:6rem; margin-bottom:1rem}
 
-.IMAGECOL {
-    left:50%;}
-.IMAGECOL img {position:relative;
-    max-width:100%;
-    max-height:100%;
-    margin-left:-50%;}
-.INFOCOL {min-width:100%;max-height:100%;
-}
-}
-
-/*@media only screen and (max-width:500px){*/
-@media all and (min-width:481px) and (max-width: 568px) {/* and (min-height:490px)*/
-
 #FRAME {
--ms-flex-preferred-size:100%;
-flex-basis:100%;
-max-width:100%;
-display:flex;
+-ms-flex-preferred-size:20%;
+flex-basis:20%;
+max-width:20%;
 /*height: 15rem;*/
 }
-.CONTAINER {
-padding: 0 3.5rem 0 3.5rem;
 }
-.CABECERA{font-size:4rem; margin-bottom:1rem;
-}
-.IMAGECOL {
-    left:0%;}
-.IMAGECOL img {max-width:100%;
-    max-height:100%;
-    margin-left:0%;}
-.INFOCOL {min-height:100%; max-width:100%;}
-}
-/*@media only screen and (max-width:400px){*/
-@media all and (min-width:0px) and (max-width: 480px) {/* and (min-height:490px)*/
+
+@media only screen and (min-width:2001px){/* and (min-height:600px)*/
+.CABECERA {font-size:6rem; margin-bottom:1rem}
 
 #FRAME {
--ms-flex-preferred-size:100%;
-flex-basis:100%;
-max-width:100%;
-display:inline;
-height: 100%;
-}
-.IMAGECOL {
-    left:50%;}
-.IMAGECOL img {position:relative;
-    max-width:100%;
-    max-height:100%;
-    margin-left:-50%;}
-
-.CONTAINER {
-padding: 0 1.5rem 0 1.5rem;
-}
-.CABECERA{font-size:4rem; margin-bottom:1rem;
-}
-.INFOCOL { min-width:100%;}
-.popup img {max-width: 90%;
+-ms-flex-preferred-size:16%;
+flex-basis:16%;
+max-width:16%;
+/*height: 15rem;*/
 }
 }
