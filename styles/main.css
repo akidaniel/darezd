@@ -70,7 +70,7 @@ flex-basis:25%;
 max-width:25%;
 float:left;
 background: #FFFFFF;
-height: 240px;
+max-height: 100%;
 display: flex; 
 justify-content: space-between;
 box-sizing:border-box;
@@ -246,44 +246,53 @@ a:hover.back-to-top,  a:hover.MAIL, a:hover.GPLUS, a:hover.TWITTER, a:hover.FCBK
 filter:hue-rotate(0deg) saturate(0.2) brightness(3);
 }
 
-@media only screen and (max-width:2800px){
+@media only screen and (min-width:2001px){
 #FRAME {
 -ms-flex-preferred-size:16%;
 flex-basis:16%;
 max-width:16%;
+height: 15rem;
 }
 }
-@media only screen and (max-width:2000px){
+@media all and (min-width:1455px) and (max-width: 2000px) {
 #FRAME {
 -ms-flex-preferred-size:20%;
 flex-basis:20%;
 max-width:20%;
+height: 15rem;
 }
 }
-@media only screen and (max-width:1470px){
+/*@media only screen and (max-width:1470px){*/
+@media all and (min-width:1191px) and (max-width: 1454px) {
+
 #FRAME {
 -ms-flex-preferred-size:25%;
 flex-basis:25%;
 max-width:25%;
+height: 15rem;
 }
 }
-@media only screen and (max-width:1200px){
+/*@media only screen and (max-width:1200px){
+@media all and (min-width:801px) and (max-width: 959px) {
 #FRAME {
 -ms-flex-preferred-size:33%;
 flex-basis:33%;
 max-width:33%;
 }
-}
+}*/
 
-
-@media only screen and (max-width:950px){
-/*@media all and (min-width:769px) and (max-width: 800px) {*/
+@media all and (min-width:961px) and (max-width: 1190px) {
 .CONTAINER {
 padding: 0px 3rem 0 3rem;
 }	
 #FRAME {
 display:inline;
-min-height: 370px;
+min-height: 100%;
+-ms-flex-preferred-size:25%;
+flex-basis:25%;
+max-width:25%;
+max-height:100%;
+height: 23rem;
 }
 .IMAGECOL {-ms-flex-preferred-size: 100%;
 flex-basis: 100%;
@@ -291,6 +300,31 @@ max-width: 100%;}
 .INFOCOL {-ms-flex-preferred-size: 100%;
 flex-basis: 100%;
 max-width: 100%;
+min-height:100%;
+width:100%;
+}
+}
+/*@media only screen and (max-width:950px){*/
+@media all and (min-width:769px) and (max-width: 960px) {
+.CONTAINER {
+padding: 0px 3rem 0 3rem;
+}	
+#FRAME {
+display:inline;
+min-height: 100%;
+-ms-flex-preferred-size:33%;
+flex-basis:33%;
+max-width:33%;
+max-height:100%;
+height: 22.5rem;
+}
+.IMAGECOL {-ms-flex-preferred-size: 100%;
+flex-basis: 100%;
+max-width: 100%;}
+.INFOCOL {-ms-flex-preferred-size: 100%;
+flex-basis: 100%;
+max-width: 100%;
+min-height:100%;
 width:100%;
 }
 }
@@ -301,11 +335,11 @@ width:100%;
 .CONTAINER {
 padding: 0px 3rem 0 3rem;
 }
-#FRAME {
+#FRAME {display:inline;
 -ms-flex-preferred-size:50%;
 flex-basis:50%;
 max-width:50%;
-min-height:22.5rem;
+min-height: 20.55rem;
 }
 
 .IMAGECOL {
@@ -314,6 +348,8 @@ min-height:22.5rem;
     max-width:100%;
     max-height:100%;
     margin-left:-50%;}
+.INFOCOL {min-width:100%;max-height:100%;
+}
 }
 
 /*@media only screen and (max-width:500px){*/
@@ -323,11 +359,11 @@ min-height:22.5rem;
 flex-basis:100%;
 max-width:100%;
 display:flex;
-min-height:100%;
+max-height:100%;
 }
-/*.CONTAINER {
-padding: 0px 20px 0 20px ;
-}*/
+.CONTAINER {
+padding: 0 3.5rem 0 3.5rem;
+}
 .CABECERA{font-size:4rem; margin-bottom:1rem;
 }
 .IMAGECOL {
@@ -335,7 +371,7 @@ padding: 0px 20px 0 20px ;
 .IMAGECOL img {max-width:100%;
     max-height:100%;
     margin-left:0%;}
-.INFOCOL {max-height:100%; max-width:100%;}
+.INFOCOL {min-height:100%; max-width:100%;}
 }
 /*@media only screen and (max-width:400px){*/
 @media all and (min-width:0px) and (max-width: 480px) {
@@ -358,6 +394,7 @@ padding: 0 1.5rem 0 1.5rem;
 }
 .CABECERA{font-size:4rem; margin-bottom:1rem;
 }
+.INFOCOL { min-width:100%;}
 }
 /* Smartphones (portrait)
 @media only screen
