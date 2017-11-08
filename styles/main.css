@@ -250,7 +250,7 @@ a.back-to-top {
 	z-index: 999;
 	right: 20px;
 	bottom: 20px;
-	background: url("https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICONOS/BT_TOP.svg") no-repeat center 43%;
+	background: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICONOS/BT_TOP.svg) no-repeat center 43%;
 	
 }
 a:hover.back-to-top,  a:hover.MAIL, a:hover.GPLUS, a:hover.TWITTER, a:hover.FCBK, a:hover.BACK, a:hover.HOME {
