@@ -263,7 +263,7 @@ background-image: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICON
 filter:hue-rotate(0deg) saturate(0.2) brightness(3);
 }
 
-@media only screen and (min-width:2001px){
+@media only screen and (min-width:2001px){/* and (min-height:600px)*/
 .CABECERA {font-size:6rem; margin-bottom:1rem}
 
 #FRAME {
@@ -273,7 +273,7 @@ max-width:16%;
 /*height: 15rem;*/
 }
 }
-@media all and (min-width:1455px) and (max-width: 2000px) {
+@media all and (min-width:1455px) and (max-width: 2000px) {/* and (min-height:600px)*/
 .CABECERA {font-size:6rem; margin-bottom:1rem}
 
 #FRAME {
@@ -284,7 +284,7 @@ max-width:20%;
 }
 }
 /*@media only screen and (max-width:1470px){*/
-@media all and (min-width:1191px) and (max-width: 1454px) {
+@media all and (min-width:1191px) and (max-width: 1454px) {/* and (min-height:600px)*/
 .CABECERA {font-size:6rem; margin-bottom:1rem}
 
 #FRAME {
@@ -303,7 +303,7 @@ max-width:33%;
 }
 }*/
 
-@media all and (min-width:961px) and (max-width: 1190px) {
+@media all and (min-width:961px) and (max-width: 1190px) {/* and (min-height:600px)*/
 .CONTAINER {
 padding: 0px 3rem 0 3rem;
 }
@@ -329,7 +329,8 @@ width:100%;
 }
 }
 /*@media only screen and (max-width:950px){*/
-@media all and (min-width:769px) and (max-width: 960px) {
+@media all and (min-width:769px) and (max-width: 960px) {/* and (min-height:600px)*/
+
 .CONTAINER {
 padding: 0px 3rem 0 3rem;
 }	
@@ -356,7 +357,8 @@ width:100%;
 
 
 /*@media only screen and (max-width:750px){*/
-@media all and (min-width:569px) and (max-width: 768px) {
+@media all and (min-width:569px) and (max-width: 768px) {/* and (min-height:490px)*/
+
 .CONTAINER {
 padding: 0px 3rem 0 3rem;
 }
@@ -380,7 +382,8 @@ height: 20.55rem;
 }
 
 /*@media only screen and (max-width:500px){*/
-@media all and (min-width:481px) and (max-width: 568px) {
+@media all and (min-width:481px) and (max-width: 568px) {/* and (min-height:490px)*/
+
 #FRAME {
 -ms-flex-preferred-size:100%;
 flex-basis:100%;
@@ -401,7 +404,8 @@ padding: 0 3.5rem 0 3.5rem;
 .INFOCOL {min-height:100%; max-width:100%;}
 }
 /*@media only screen and (max-width:400px){*/
-@media all and (min-width:0px) and (max-width: 480px) {
+@media all and (min-width:0px) and (max-width: 480px) {/* and (min-height:490px)*/
+
 #FRAME {
 -ms-flex-preferred-size:100%;
 flex-basis:100%;
