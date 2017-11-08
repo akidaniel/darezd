@@ -246,68 +246,6 @@ a:hover.back-to-top,  a:hover.MAIL, a:hover.GPLUS, a:hover.TWITTER, a:hover.FCBK
 filter:hue-rotate(0deg) saturate(0.2) brightness(3);
 }
 
-/*ZOOM PUBLITAS*/
-
-.image-link {
-  cursor: -webkit-zoom-in;
-  cursor: -moz-zoom-in;
-  cursor: zoom-in;
-}
-
-/* This block of CSS adds opacity transition to background */
-.mfp-with-zoom .mfp-container,
-.mfp-with-zoom.mfp-bg {
-	opacity: 0;
-	-webkit-backface-visibility: hidden;
-	-webkit-transition: all 0.3s ease-out; 
-	-moz-transition: all 0.3s ease-out; 
-	-o-transition: all 0.3s ease-out; 
-	transition: all 0.3s ease-out;
-}
-
-.mfp-with-zoom.mfp-ready .mfp-container {
-		opacity: 1;
-}
-.mfp-with-zoom.mfp-ready.mfp-bg {
-		opacity: 0.8;
-}
-
-.mfp-with-zoom.mfp-removing .mfp-container, 
-.mfp-with-zoom.mfp-removing.mfp-bg {
-	opacity: 0;
-}
-
-
-
-/* padding-bottom and top for image */
-.mfp-no-margins img.mfp-img {
-	padding: 0;
-}
-/* position of shadow behind the image */
-.mfp-no-margins .mfp-figure:after {
-	top: 0;
-	bottom: 0;
-}
-/* padding for main container */
-.mfp-no-margins .mfp-container {
-	padding: 0;
-}
-
-
-/* aligns caption to center */
-.mfp-title {
-  text-align: center;
-  padding: 6px 0;
-}
-.image-source-link {
-  color: #DDD;
-}
-
-body { -webkit-backface-visibility: hidden; padding: 10px 30px; 
-  font-family: "Calibri", "Trebuchet MS", "Helvetica", sans-serif;
-}
-/*FIN ZOOM PUBLITAS*/
-
 @media only screen and (max-width:2800px){
 #FRAME {
 -ms-flex-preferred-size:16%;
@@ -351,8 +289,8 @@ max-width: 100%;}
 flex-basis: 100%;
 max-width: 100%;
 width:100%;
-}
-@media only screen and (max-width:560px){
+}}
+@media only screen and (max-width:750px){
 .CONTAINER {
 padding: 0px 50px 0 50px ;
 }
@@ -363,6 +301,13 @@ max-width:50%;
 min-height:350px;
 }
 .CABECERA{font-size:4rem; margin-bottom:1rem;
+}
+.IMAGECOL {
+    left:50%;}
+.IMAGECOL img {position:relative;
+    max-width:100%;
+    max-height:100%;
+    margin-left:-50%;}
 }
 @media only screen and (max-width:500px){
 #FRAME {
@@ -375,6 +320,10 @@ min-height:200px;
 .CONTAINER {
 padding: 0px 20px 0 20px ;
 }
+.IMAGECOL {
+    left:0%;}
+.IMAGECOL img {
+    margin-left:0%;}
 }
 @media only screen and (max-width:400px){
 #FRAME {
