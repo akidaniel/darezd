@@ -132,17 +132,19 @@ margin-bottom:1.5rem;
 color: #747691;
 }
 .NAME {margin-bottom:0.1rem;
-font-weight:500;
-font-size:1.9rem;
+font-weight:200;
+font-size:2.5rem;
 color: #b0b1c8;
 line-height:0;
+letter-spacing: 0.55rem;
 }
 .DESTACADO{font-size:1.144rem;
 margin-bottom:1.25rem;
 padding:0 2rem;
 text-align:center;
 color: #747691;
-line-height: 1.5rem;
+line-height: 2.2rem;
+letter-spacing: 0.35rem;
 }
 .LINE {background: darkgray;
 height: 1px;
@@ -265,7 +267,6 @@ filter:hue-rotate(0deg) saturate(0.2) brightness(3);
 
 
 
-/*@media only screen and (max-width:400px){*/
 @media all and (min-width:0px) and (max-width: 480px) {/* and (min-height:490px)*/
 
 #FRAME {
@@ -290,10 +291,17 @@ padding: 0 1.5rem 0 1.5rem;
 .INFOCOL { min-width:100%;}
 .popup img {max-width: 90%;
 }
+.NAME {font-weight: 200;
+font-size: 1.6rem;
+letter-spacing:0.4rem;}
+
+.DESTACADO {font-size: 1.3rem;
+margin-bottom: 0.8rem;
+line-height:1.6rem;
+letter-spacing: 0.2rem;}
 }
 
 
-/*@media only screen and (max-width:500px){*/
 @media all and (min-width:481px) and (max-width: 568px) {/* and (min-height:490px)*/
 
 #FRAME {
@@ -314,18 +322,26 @@ padding: 0 3.5rem 0 3.5rem;
     max-height:100%;
     margin-left:0%;}
 .INFOCOL {min-height:100%; max-width:100%;}
+.NAME {font-weight: 200;
+font-size: 1.6rem;
+letter-spacing:0.4rem;}
+
+.DESTACADO {font-size: 1.3rem;
+margin-bottom: 0.8rem;
+line-height:1.6rem;
+letter-spacing: 0.2rem;}
 }
 /*@media only screen and (max-width:750px){*/
-@media all and (min-width:569px) and (max-width: 1190px) {/* and (min-height:490px)*/
+@media all and (min-width:569px) and (max-width: 900px) {/* and (min-height:490px)*/
 
 .CONTAINER {
-padding: 0px 3rem 0 3rem;
+padding: 0px 4rem 0 4rem;
 }
 #FRAME {display:inline;
 -ms-flex-preferred-size:50%;
 flex-basis:50%;
 max-width:50%;
-height: 20.55rem;
+height: 22.4rem;
 }
 
 .CABECERA {font-size:6rem; margin-bottom:1rem}
@@ -337,6 +353,29 @@ height: 20.55rem;
     margin-left:-50%;}
 .INFOCOL {min-width:100%;max-height:100%; width: 100%;
 }
+}
+
+@media all and (min-width:901px) and (max-width: 1200px) {/* and (min-height:490px)*/
+
+.CONTAINER {
+padding: 0px 8rem 0 8rem;
+}
+#FRAME {display:flex;
+-ms-flex-preferred-size:50%;
+flex-basis:50%;
+max-width:50%;
+min-height: 100%;}
+
+.CABECERA {font-size:6rem; margin-bottom:1rem}
+/*.IMAGECOL {
+    left:50%;}
+.IMAGECOL img {position:relative;
+    max-width:100%;
+    max-height:100%;
+    margin-left:-50%;
+	width:100%;}
+.INFOCOL {min-width:100%;max-height:100%; width: 100%;
+}*/
 }
 /*@media only screen and (max-width:950px){
 @media all and (min-width:769px) and (max-width: 960px) {/* and (min-height:600px)
@@ -365,7 +404,7 @@ width:100%;
 .CABECERA {font-size:6rem; margin-bottom:1rem}
 }
 /*@media only screen and (max-width:1470px){*/
-@media all and (min-width:1191px) and (max-width: 1454px) {/* and (min-height:600px)*/
+@media all and (min-width:1201px) and (max-width: 1454px) {/* and (min-height:600px)*/
 .CABECERA {font-size:6rem; margin-bottom:1rem}
 
 #FRAME {
