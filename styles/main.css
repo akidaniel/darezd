@@ -367,7 +367,7 @@ min-height:350px;
     margin-left:-50%;}	
 }
 @media only screen and (orientation: landscape) {
-    body {
-        background-color: lightblue;
+    .INICIO {
+        background: red;
     }
 }
