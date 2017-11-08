@@ -59,13 +59,13 @@ background: #e9e9f3;
 flex-basis:37%;
 max-width:37%;
 float:left;
-margin-top: 1px;
-margin-left: 1px;
+margin-top: 0.075rem;
+margin-left: 0.075rem;
 padding: 4px;
 height:100%;
 }
 
-#FRAME {box-shadow: 1px 0 0 0 #C9C9C9,0 1px 0 0 #C9C9C9,1px 1px 0 0 #C9C9C9,1px 0 0 0 #C9C9C9 inset,0 1px 0 0 #C9C9C9 inset;
+#FRAME {box-shadow: 0.075rem 0 0 0 #C9C9C9,0 0.075rem 0 0 #C9C9C9,0.075rem 0.075rem 0 0 #C9C9C9,0.075rem 0 0 0 #C9C9C9 inset,0 0.075rem 0 0 #C9C9C9 inset;
 overflow: hidden;
 position: relative;
 -ms-flex-preferred-size:100%;
@@ -154,7 +154,7 @@ height: 1px;
 margin-top: 8px;
 margin-bottom: 4px;}
 
-.piedefoto {color:#e9e9f3; font-size:22px; font-weight:100; font-style:italic; letter-spacing: 1px; /*font-family:Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;*/ }
+.piedefoto {color:#e9e9f3; font-size:22px; font-weight:100; font-style:italic; letter-spacing: 0.075rem; /*font-family:Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;*/ }
 
 /*FIN TEXTOS*/
 
@@ -188,7 +188,7 @@ animation-duration: 0.2s;
 padding: 4px;
 max-width:100%;
 z-index: 120;
-border: solid 1px gray;
+border: solid 0.075rem gray;
 cursor: pointer;
 background-color:#FFFFFF;
 -moz-border-radius: 2px;
@@ -422,4 +422,6 @@ padding: 0 1.5rem 0 1.5rem;
 .CABECERA{font-size:4rem; margin-bottom:1rem;
 }
 .INFOCOL { min-width:100%;}
+.popup img {max-width: 90%;
+}
 }
