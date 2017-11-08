@@ -258,7 +258,7 @@ background-image: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICON
 }
 
 
-.back-to-top:hover,  .MAIL:hover, .GPLUS:hover, .TWITTER:hover, .FCBK:hover, .BACK:hover, .HOME:hover {
+.MAIL:hover, .GPLUS:hover, .TWITTER:hover, .FCBK:hover, .BACK:hover, .HOME:hover {
 -moz-filter: hue-rotate(0deg) saturate(0.2) brightness(3);
 -o-filter: hue-rotate(0deg) saturate(0.2) brightness(3);
 -ms-filter: hue-rotate(0deg) saturate(0.2) brightness(3);
