@@ -241,19 +241,21 @@ background-image: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICON
 
 
 /*BOTON BACK TO TOP*/
-a.back-to-top {
+.back-to-top {
 	display: none;
 	width: 60px;
 	height: 60px;
 	text-indent: -9999px;
+	/*direction:ltr;*/
 	position: fixed;
 	z-index: 999;
 	right: 20px;
 	bottom: 20px;
 	background: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICONOS/BT_TOP.svg) no-repeat center 43%;
-	
 }
-a:hover.back-to-top,  a:hover.MAIL, a:hover.GPLUS, a:hover.TWITTER, a:hover.FCBK, a:hover.BACK, a:hover.HOME {
+
+
+.back-to-top:hover,  .MAIL:hover, .GPLUS:hover, .TWITTER:hover, .FCBK:hover, .BACK:hover, .HOME:hover {
 -moz-filter: hue-rotate(0deg) saturate(0.2) brightness(3);
 -o-filter: hue-rotate(0deg) saturate(0.2) brightness(3);
 -ms-filter: hue-rotate(0deg) saturate(0.2) brightness(3);
