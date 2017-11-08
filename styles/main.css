@@ -25,13 +25,13 @@ table {border-collapse: collapse;}
 .CONTAINER {
 margin-right: auto;
 margin-left: auto;
-padding: 0px 80px 0 80px ;
+padding: 0 4rem 0 4rem;
 }
 
 .INICIO {box-sizing:border-box;
 padding:0;
 margin:0;
-font-size:18px;
+font-size:1.15rem;
 font-family:HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
 font-weight:400;
 background:#f6f7fd;
@@ -274,9 +274,12 @@ flex-basis:33%;
 max-width:33%;
 }
 }
+
+
 @media only screen and (max-width:950px){
+/*@media all and (min-width:769px) and (max-width: 800px) {*/
 .CONTAINER {
-padding: 0px 60px 0 60px ;
+padding: 0px 3rem 0 3rem;
 }	
 #FRAME {
 display:inline;
@@ -289,19 +292,22 @@ max-width: 100%;}
 flex-basis: 100%;
 max-width: 100%;
 width:100%;
-}}
-@media only screen and (max-width:750px){
+}
+}
+
+
+/*@media only screen and (max-width:750px){*/
+@media all and (min-width:569px) and (max-width: 768px) {
 .CONTAINER {
-padding: 0px 50px 0 50px ;
+padding: 0px 3rem 0 3rem;
 }
 #FRAME {
 -ms-flex-preferred-size:50%;
 flex-basis:50%;
 max-width:50%;
-min-height:350px;
+min-height:22.5rem;
 }
-.CABECERA{font-size:4rem; margin-bottom:1rem;
-}
+
 .IMAGECOL {
     left:50%;}
 .IMAGECOL img {position:relative;
@@ -310,29 +316,35 @@ min-height:350px;
     margin-left:-50%;}
 }
 
-@media only screen and (max-width:500px){
+/*@media only screen and (max-width:500px){*/
+@media all and (min-width:481px) and (max-width: 568px) {
 #FRAME {
 -ms-flex-preferred-size:100%;
 flex-basis:100%;
 max-width:100%;
 display:flex;
-min-height:200px;
+min-height:100%;
 }
-.CONTAINER {
+/*.CONTAINER {
 padding: 0px 20px 0 20px ;
+}*/
+.CABECERA{font-size:4rem; margin-bottom:1rem;
 }
 .IMAGECOL {
     left:0%;}
-.IMAGECOL img {
+.IMAGECOL img {max-width:100%;
+    max-height:100%;
     margin-left:0%;}
+.INFOCOL {max-height:100%; max-width:100%;}
 }
-@media only screen and (max-width:400px){
+/*@media only screen and (max-width:400px){*/
+@media all and (min-width:0px) and (max-width: 480px) {
 #FRAME {
 -ms-flex-preferred-size:100%;
 flex-basis:100%;
 max-width:100%;
 display:inline;
-min-height:380px;
+max-height: 100%;
 }
 .IMAGECOL {
     left:50%;}
@@ -340,15 +352,19 @@ min-height:380px;
     max-width:100%;
     max-height:100%;
     margin-left:-50%;}
+
+.CONTAINER {
+padding: 0 1.5rem 0 1.5rem;
 }
-
-
-/* Smartphones (portrait) ----------- */
+.CABECERA{font-size:4rem; margin-bottom:1rem;
+}
+}
+/* Smartphones (portrait)
 @media only screen
 and (max-width : 320px) {
-	
+@media all and (min-width:0px) and (max-width: 320px) {	
 .CONTAINER {
-padding: 0px 20px 0 20px ;
+padding: 0 1.5rem 0 1.5rem;
 background:red;
 }
 #FRAME {
@@ -365,9 +381,4 @@ min-height:350px;
     max-width:100%;
     max-height:100%;
     margin-left:-50%;}	
-}
-@media only screen and (orientation: portrait) {
-    .INICIO {
-        background: red;
-    }
-}
+}*/
