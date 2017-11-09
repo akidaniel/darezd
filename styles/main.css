@@ -14,7 +14,7 @@ border: 0;
 vertical-align: top;
 list-style:none;
 list-style-type: none;
-text-align:left;
+text-align:center;
 }
 :focus {
 	outline: 0;
@@ -37,6 +37,7 @@ margin-right: auto;
 margin-left: auto;
 padding: 0 3.5rem 0 3.5rem;
 position:absolute;
+text-align:left;
 }
 
 .GALERIA {
@@ -66,18 +67,21 @@ padding: 4px;
 left:0%;
 }
 
-.IMAGECOL img {display:block; max-height:100%; max-width:100%; margin-left:0%;}
+.IMAGECOL img {display:block;
+width:100%;
+margin-left:0%;}
 
 .INFOCOL{-ms-flex-preferred-size:37%;
-background: #e9e9f3;
 flex-basis:37%;
 max-width:37%;
+background: #e9e9f3;
 float:left;
 margin-top: 0.075rem;
 margin-left: 0.075rem;
 padding: 4px;
 height:100%;
-max-width:100%;max-height:100%;
+max-width:100%;
+max-height:100%;
 }
 
 #FRAME {box-shadow: 0.075rem 0 0 0 #C9C9C9,0 0.075rem 0 0 #C9C9C9,0.075rem 0.075rem 0 0 #C9C9C9,0.075rem 0 0 0 #C9C9C9 inset,0 0.075rem 0 0 #C9C9C9 inset;
@@ -102,8 +106,8 @@ position: relative;
 max-width: 20%;
 /*margin:0 auto 1.9rem auto;*/
 }
-div.iconomain {max-width: 35%;}
-.iconocenter {margin-left: 26%;}
+div.iconomain {max-width: 33%;}
+.iconocenter {margin-left: 28%;}
 div.icono img {
 width: 100%;
 height: auto;
@@ -175,7 +179,7 @@ font-weight:400;
 font-size:2.5rem;
 color: #b0b1c8;
 line-height:0;
-letter-spacing: 0.42rem;
+letter-spacing: 0.35rem;
 }
 .DESTACADO{font-size:1.144rem;
 margin-bottom:1.25rem;
@@ -320,7 +324,7 @@ filter:hue-rotate(0deg) saturate(0.2) brightness(3);
 
 @media only screen and (min-width:0px) and (max-width: 480px) {/* and (min-height:490px)*/
 
-#FRAME {
+#FRAME {-ms-flex-preferred-size:100%;
 flex-basis:100%;
 max-width:100%;
 display:inline;
@@ -329,9 +333,7 @@ height: 100%;
 .IMAGECOL {
     left:50%;}
 .IMAGECOL img {position:relative;
-    max-width:100%;
-    max-height:100%;
-    margin-left:-50%;}
+ margin-left:-50%;}
 
 .CONTAINER {
 padding: 0 1.5rem 0 1.5rem;
@@ -341,6 +343,7 @@ padding: 0 1.5rem 0 1.5rem;
 .SUBTITULO {margin-top: 5rem;}
 
 .INFOCOL { min-width:100%;}
+
 .popup img {max-width: 90%;
 }
 .NAME {
@@ -361,7 +364,7 @@ div.iconomedio {min-width:100%}
 
 @media only screen and (min-width:481px) and (max-width: 600px) {
 
-#FRAME {
+#FRAME {-ms-flex-preferred-size:100%;
 flex-basis:100%;
 max-width:100%;
 display:flex;
@@ -374,10 +377,8 @@ padding: 0 2.5rem 0 2.5rem;
 .SUBTITULO {margin-top: 5rem;}
 .IMAGECOL {
     left:0%;}
-.IMAGECOL img {max-width:100%;
-    max-height:100%;
-    margin-left:0%;}
-.INFOCOL {min-height:100%; max-width:100%;}
+.IMAGECOL img {margin-left:0%;}
+.INFOCOL {min-height:100%;}
 .NAME {font-weight: 200;
 font-size: 1.6rem;
 letter-spacing:0.4rem;}
@@ -400,6 +401,7 @@ padding: 0px 4rem 0 4rem;
 }
 
 #FRAME {display:inline;
+-ms-flex-preferred-size:50%;
 flex-basis:50%;
 max-width:50%;
 height: 22.4rem;
@@ -413,10 +415,9 @@ letter-spacing: 0.2rem;}
 .IMAGECOL {
     left:50%;}
 .IMAGECOL img {position:relative;
-    max-width:100%;
-    max-height:100%;
-    margin-left:-50%;}
-.INFOCOL {min-width:100%;max-height:100%; width: 100%;
+margin-left:-50%;}
+.INFOCOL {min-width:100%;
+width: 100%;
 }
 div.icono {
 float: left;
@@ -434,6 +435,7 @@ div.iconomedio {min-width:50%}
 padding: 0px 2rem 0 2rem;
 }
 #FRAME {display:flex;
+-ms-flex-preferred-size:50%;
 flex-basis:50%;
 max-width:50%;
 min-height: 100%;}
@@ -462,7 +464,7 @@ div.iconomedio {min-width:33%}
 @media only screen and (min-width:1025px) and (max-width: 1454px) {
 .CABECERA {font-size:6rem; margin-bottom:1rem}
 
-#FRAME {
+#FRAME {-ms-flex-preferred-size:33%;
 flex-basis:33%;
 max-width:33%;
 }
@@ -489,7 +491,7 @@ div.iconomedio {min-width:25%}
 @media only screen and (min-width:1201px) and (max-width: 1454px) {
 .CABECERA {font-size:6rem; margin-bottom:1rem}
 
-#FRAME {
+#FRAME {-ms-flex-preferred-size:25%;
 flex-basis:25%;
 max-width:25%;
 }
@@ -513,9 +515,10 @@ float: left;
 }
 
 @media only screen and (min-width:1455px) and (max-width: 2000px) {
+	.GALERIA {margin: 0 18rem;}
 .CABECERA {font-size:6rem; margin-bottom:1rem}
 
-#FRAME {
+#FRAME {-ms-flex-preferred-size:20%;
 flex-basis:20%;
 max-width:20%;
 }
@@ -540,9 +543,10 @@ div.iconomedio {min-width:12%}
 }
 
 @media only screen and (min-width:2001px){
+	.GALERIA {margin: 0 30rem;}
 .CABECERA {font-size:6rem; margin-bottom:1rem}
 
-#FRAME {
+#FRAME {-ms-flex-preferred-size:16%;
 flex-basis:16%;
 max-width:16%;
 }
@@ -563,4 +567,5 @@ div.icono {
 float: left;
 }
 div.iconomedio {min-width:10%}
+
 }
