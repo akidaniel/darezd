@@ -80,7 +80,8 @@ height:100%;
 }
 
 #FRAME {box-shadow: 0.075rem 0 0 0 #C9C9C9,0 0.075rem 0 0 #C9C9C9,0.075rem 0.075rem 0 0 #C9C9C9,0.075rem 0 0 0 #C9C9C9 inset,0 0.075rem 0 0 #C9C9C9 inset;
-display: -webkit-flex; 
+display: -webkit-flex;
+display: -ms-flexbox; 
 display: flex; 
 overflow: hidden;
 position: relative;
@@ -549,7 +550,7 @@ div.iconomedio {min-width:12%}
 .CABECERA {font-size:6rem; margin-bottom:1rem}
 
 #FRAME {
--ms-flex-preferred-size:16%;
+-ms-flex-preferred-size:100%;
 flex-basis:16%;
 max-width:16%;
 }
