@@ -320,7 +320,6 @@ filter:hue-rotate(0deg) saturate(0.2) brightness(3);
 @media only screen and (min-width:0px) and (max-width: 480px) {/* and (min-height:490px)*/
 
 #FRAME {
--ms-flex-preferred-size:100%;
 flex-basis:100%;
 max-width:100%;
 display:inline;
@@ -362,7 +361,6 @@ div.iconomedio {min-width:100%}
 @media only screen and (min-width:481px) and (max-width: 600px) {
 
 #FRAME {
--ms-flex-preferred-size:100%;
 flex-basis:100%;
 max-width:100%;
 display:flex;
@@ -402,7 +400,6 @@ padding: 0px 4rem 0 4rem;
 /*article, footer {margin-left: -400px;
 width: 800px;}*/
 #FRAME {display:inline;
--ms-flex-preferred-size:50%;
 flex-basis:50%;
 max-width:50%;
 height: 22.4rem;
@@ -437,7 +434,6 @@ div.iconomedio {min-width:50%}
 padding: 0px 2rem 0 2rem;
 }
 #FRAME {display:flex;
--ms-flex-preferred-size:50%;
 flex-basis:50%;
 max-width:50%;
 min-height: 100%;}
@@ -467,7 +463,6 @@ div.iconomedio {min-width:33%}
 .CABECERA {font-size:6rem; margin-bottom:1rem}
 
 #FRAME {
--ms-flex-preferred-size:33%;
 flex-basis:33%;
 max-width:33%;
 }
@@ -495,7 +490,6 @@ div.iconomedio {min-width:25%}
 .CABECERA {font-size:6rem; margin-bottom:1rem}
 
 #FRAME {
--ms-flex-preferred-size:25%;
 flex-basis:25%;
 max-width:25%;
 }
@@ -522,7 +516,6 @@ float: left;
 .CABECERA {font-size:6rem; margin-bottom:1rem}
 
 #FRAME {
--ms-flex-preferred-size:20%;
 flex-basis:20%;
 max-width:20%;
 }
@@ -550,7 +543,6 @@ div.iconomedio {min-width:12%}
 .CABECERA {font-size:6rem; margin-bottom:1rem}
 
 #FRAME {
--ms-flex-preferred-size:100%;
 flex-basis:16%;
 max-width:16%;
 }
