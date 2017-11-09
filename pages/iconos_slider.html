@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<link rel="icon" href="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/favicon-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/favicon-300x300.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/botones/favicon-300x300.png" />
+
+<title>Iconos laboratorio y clínica dental</title>
+<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+
+var $first = $('li:first', 'ul'),
+    $last = $('li:last', 'ul');
+// Have the first and last li's set to a variable
+$("#next").click(function () {
+    var $next,
+        $selected = $(".selected");
+	
+    // get the selected item
+    // If next li is empty , get the first
+    $next = $selected.next('li').length ? $selected.next('li') : $first;
+    $selected.removeClass("selected");
+	$next.addClass('selected');
+	// hides target 		
+	$('li').removeClass("linked");
+});
+
+$("#prev").click(function () {
+    var $prev,
+        $selected = $(".selected");
+	
+    // get the selected item
+    // If prev li is empty , get the last
+    $prev = $selected.prev('li').length ? $selected.prev('li') : $last;
+    $selected.removeClass("selected");
+	$prev.addClass('selected');
+	// hides target 		
+	$('li').removeClass("linked");
+});
+});
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-85605732-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<link type="text/css" rel="stylesheet" href="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/stylesheets/main.css"/>
+
+<style type="text/css">
+
+li {display:none;}
+
+.selected, .linked:target {display:block;}
+
+</style>
+
+</head>
+
+<body id="galeria">
+<?php include_once("analyticstracking.php") ?>
+<h2>&nbsp;</h2>
+
+<div class="SOCIAL">
+<a class="BACK" onClick="history.go(-1);return true;"></a>
+
+<a class="FCBK" rel="nofollow"
+    href="http://www.facebook.com/"
+    onclick="popUp=window.open(
+        'http://www.facebook.com/sharer.php?u=https://akidaniel.github.io/PORTFOLIO/paginas/iconos.html',
+        'popupwindow',
+        'scrollbars=yes,width=800,height=400');
+    popUp.focus();
+    return false"  title="Compartir en Facebook">
+    <!--<i class="visuallyhidden">share on facebook</i>-->
+</a>
+
+  <a class="TWITTER" rel="nofollow"
+    href="http://twitter.com/"
+    onclick="popUp=window.open(
+        'http://twitter.com/intent/tweet?text=\'https://akidaniel.github.io/PORTFOLIO/paginas/iconos.html',
+        'popupwindow',
+        'scrollbars=yes,width=800,height=400');
+    popUp.focus();
+    return false" title="Compartir en Twitter">
+   <!-- <i class="visuallyhidden">share on twitter</i>-->
+</a>
+
+<a class="GPLUS" rel="nofollow"
+    href="http://www.plus.google.com/"
+    onclick="popUp=window.open(
+        'https://plus.google.com/share?url=https://akidaniel.github.io/PORTFOLIO/paginas/iconos.html',
+        'popupwindow',
+        'scrollbars=yes,width=800,height=400');
+    popUp.focus();
+    return false" title="Compartir en Google+">
+    <!--<i class="visuallyhidden">share on google plus</i>-->
+</a>
+
+<a class="MAIL" rel="nofollow"
+    href="mailto:?subject=Me gusta este diseño de darezd.com &body=Lo encontré en ww.darezd.com" title="Enviar por mail">
+    <!--<i class="visuallyhidden">share via email</i>-->
+</a>
+</div>
+
+<ul id="">
+  <li id="abrasivos" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_ABRASIVOS_Z.png" alt="Abrasivos" title="Abrasivos"><h4>Abrasivos</h4></li>
+ <li id="adhesivos" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_ADHESIVOS_Z.png" alt="Adhesivos" title="Adhesivos"><h4>Adhesivos</h4></li>
+ <li id="articulacion" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_ARTICULACION_Z.png" alt="Articulacion" title="Articulación"><h4>Articulación</h4></li>
+ <li id="articulador" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_ARTICULADOR_Z.png" alt="Articulador" title="Articulador"><h4>Articulador</h4></li>
+ <li id="ataches" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_ATACHES_Z.png" alt="Ataches" title="Ataches"><h4>Ataches</h4></li>
+ <li id="bio" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_BIO_Z.png" alt="Bio" title="Bio"><h4>Biomateriales</h4></li>
+ <li id="cadcam" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_CADCAM_Z.png" alt="CadCam" title="CadCam"><h4>Cad Cam</h4></li>
+ <li id="ceramica" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_CERAMICA_Z.png" alt="Cerámica" title="Cerámica"><h4>Cerámica</h4></li>
+ <li id="ceras" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_CERAS_Z.png" alt="Ceras" title="Ceras"><h4>Ceras</h4></li>
+ <li id="colado" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_COLADO_Z.png" alt="Colado" title="Colado"><h4>Colado</h4></li>
+ <li id="composite" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_COMPOSITE_Z.png" alt="Composites" title="Composites"><h4>Composites</h4></li>
+ <li id="cunas" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_CUNAS_Z.png" alt="Cuñas" title="Cuñas"><h4>Cuñas</h4></li>
+ <li id="desechables" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_DESECHABLES_Z.png" alt="Desechables" title="Desechables"><h4>Desechables</h4></li>
+ <li id="dientes" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_DIENTES_Z.png" alt="Dientes" title="Dientes"><h4>Dientes</h4></li>
+ <li id="discos" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_DISCOS_Z.png" alt="Discos" title="Discos"><h4>Discos</h4></li>
+ <li id="dyl" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_DYL_Z.png" alt="Desinfección y limpieza" title="Desinfección y limpieza"><h4>Desinfección y limpieza</h4></li>
+ <li id="endodoncia" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_ENDODONCIA_Z.png" alt="Endodoncia" title="Endodoncia"><h4>Endodoncia</h4></li>
+ <li id="esqueleticos" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_ESQUELETICOS_Z.png" alt="Esqueléticos" title="Esqueléticos"><h4>Esqueléticos</h4></li>
+ <li id="fresas" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_FRESAS_Z.png" alt="Fresas" title="Fresas"><h4>Fresas</h4></li>
+ <li id="gafas" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_GAFAS_Z.png" alt="Gafas y lupas" title="Gafas y lupas"><h4>Gafas y lupas</h4></li>
+<li id="hilos" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_HILOS_Z.png" alt="Hilos" title="Hilos y ganchos"><h4>Hilos y ganchos</h4></li>
+ <li id="implantes" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_IMPLANTES_Z.png" alt="Implantes" title="Implantes"><h4>Implantes</h4></li>
+ <li id="impresion" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_IMPRESION_Z.png" alt="Impresión" title="Impresión"><h4>Impresión</h4></li>
+ <li id="instrumental" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_INSTRUMENTAL_Z.png" alt="Instrumental" title="Instrumental"><h4>Instrumental</h4></li>
+ <li id="maquinaria" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_MAQUINARIA_Z.png" alt="Maquinaria" title="Maquinaria"><h4>Maquinaria</h4></li>
+ <li id="mobiliario" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_MOBILIARIO_Z.png" alt="Mobiliario" title="Mobiliario"><h4>Mobiliario</h4></li>
+ <li id="modelos" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_MODELOS_Z.png" alt="Modelos" title="Modelos"><h4>Modelos</h4></li>
+ <li id="orto" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_ORTO_Z.png" alt="Ortodoncia" title="Ortodoncia"><h4>Ortodoncia</h4></li>
+ <li id="postes" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_POSTES_Z.png" alt="Postes" title="Postes"><h4>Postes</h4></li>
+ <li id="profilaxis" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_PROFILAXIS_Z.png" alt="Profilaxis" title="Profilaxis"><h4>Profilaxis</h4></li>
+ <li id="pulido" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_PULIDO_Z.png" alt="Pulido" title="Pulido"><h4>Pulido</h4></li>
+ <li id="radiografia" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_RADIO_Z.png" alt="Radiografía" title="Radiografía"><h4>Radiografía</h4></li>
+ <li id="resinas" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_RESINAS_Z.png" alt="Resinas" title="Resinas"><h4>Resinas</h4></li>
+ <li id="rotatorio" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_ROTATORIO_Z.png" alt="Instrumental rotatorio" title="Instrumental rotatorio"><h4>Instrumental rotatorio</h4></li>
+ <li id="siliconas" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_SILICONAS_Z.png" alt="Siliconas" title="Siliconas"><h4>Siliconas</h4></li>
+ <li id="tpte" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_TPTE_Z.png" alt="Transporte" title="Transporte"><h4>Transporte</h4></li>
+ <li id="yesos" class="linked"><img src="https://rawgit.com/akidaniel/PORTFOLIO/gh-pages/imagenes/iconos/ICONO_3D_YESOS_Z.png" alt="Yesos" title="Yesos"><h4>Yesos</h4></li>
+
+</ul>
+
+<div class="SLIDER">
+<div id="prev" class="pre">Previous</div>
+<div id="next" class="post" >Next</div>
+</div>
+</body>
+</html>
