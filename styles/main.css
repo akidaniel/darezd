@@ -77,6 +77,7 @@ margin-top: 0.075rem;
 margin-left: 0.075rem;
 padding: 4px;
 height:100%;
+max-width:100%;max-height:100%;
 }
 
 #FRAME {box-shadow: 0.075rem 0 0 0 #C9C9C9,0 0.075rem 0 0 #C9C9C9,0.075rem 0.075rem 0 0 #C9C9C9,0.075rem 0 0 0 #C9C9C9 inset,0 0.075rem 0 0 #C9C9C9 inset;
@@ -397,8 +398,7 @@ div.iconomedio {min-width:50%}
 .CONTAINER {
 padding: 0px 4rem 0 4rem;
 }
-/*article, footer {margin-left: -400px;
-width: 800px;}*/
+
 #FRAME {display:inline;
 flex-basis:50%;
 max-width:50%;
