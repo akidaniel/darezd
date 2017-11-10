@@ -61,9 +61,8 @@ padding: 4px;
 left:0%;
 }
 
-.IMAGECOL img {display:block;
-width:100%;
-margin-left:0%;}
+.IMAGECOL img {display:block; max-height:100%; max-width:100%; margin-left:0%;}
+
 
 .INFOCOL{-ms-flex-preferred-size:37%;
 flex-basis:37%;
@@ -74,8 +73,6 @@ margin-top: 0.075rem;
 margin-left: 0.075rem;
 padding: 4px;
 height:100%;
-max-width:100%;
-max-height:100%;
 }
 
 #FRAME {box-shadow: 0.075rem 0 0 0 #C9C9C9,0 0.075rem 0 0 #C9C9C9,0.075rem 0.075rem 0 0 #C9C9C9,0.075rem 0 0 0 #C9C9C9 inset,0 0.075rem 0 0 #C9C9C9 inset;
@@ -280,18 +277,28 @@ background-image: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICON
 background-image: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICONOS/BT_MAIL.svg);
 }	
 
-
+/*BOTON TEXT ME*/
+.text-me {
+	display: block;
+	width: 3.75rem;
+	height: 3.75rem;
+	text-indent: -9999px;
+	position: absolute;
+	z-index: 999;
+	right: 1.25rem;
+	top: 1.8rem;
+	background: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICONOS/BT_TEXT.svg) no-repeat center 43%;
+}
 /*BOTON BACK TO TOP*/
 .back-to-top {
 	display: none;
-	width: 60px;
-	height: 60px;
+	width: 3.75rem;
+	height: 3.75rem;
 	text-indent: -9999px;
-	/*direction:ltr;*/
 	position: fixed;
 	z-index: 999;
-	right: 20px;
-	bottom: 20px;
+	right: 1.25rem;
+	bottom: 1.25rem;
 	background: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICONOS/BT_TOP.svg) no-repeat center 43%;
 }
 
@@ -407,14 +414,13 @@ background-size:cover;
 /* FIN SLIDER */
 
 
-@media only screen and (min-width:0px) and (max-width: 480px) {/* and (min-height:490px)*/
+@media only screen and (min-width:0px) and (max-width: 420px) {/* and (min-height:490px)*/
 
 #FRAME {-ms-flex-preferred-size:100%;
 flex-basis:100%;
 max-width:100%;
 display:inline;
 height: 100%;
-box-shadow: 0.075rem 0 0 0 #C9C9C9,0 0.075rem 0 0 #C9C9C9,0.075rem 0.075rem 0 0 #C9C9C9,0.075rem 0 0 0 #C9C9C9 inset,0 0.075rem 0 0 #C9C9C9 inset;
 }
 .IMAGECOL {
     left:50%;}
@@ -438,13 +444,17 @@ letter-spacing:0.3rem;}
 .DESTACADO {font-size: 1.3rem;
 margin-bottom: 0.8rem;
 line-height:1.6rem;
-letter-spacing: 0.2rem;}
+letter-spacing: 0.1rem;
+padding: 0 1.8rem 0 0.3rem;
+text-align:left;
+}
 .GALERIA {margin: 0 1.2rem 0 1.2rem}
+.text-me {top: 6.6rem;
+width: 3rem;}
 div.icono {max-width: 90%;}
 .iconocenter {margin-left: 13%;}
 .cuarto {margin-left: 0.8rem;}
 div.iconomedio {min-width:100%}
-
 div.iconomedio:after{
 position:absolute;
 content:" ";
@@ -456,7 +466,7 @@ z-index:9999;
 }
 }
 
-@media only screen and (min-width:481px) and (max-width: 600px) {
+@media only screen and (min-width:421px) and (max-width: 600px) {
 
 #FRAME {-ms-flex-preferred-size:100%;
 flex-basis:100%;
@@ -469,12 +479,15 @@ padding: 0 2.5rem 0 2.5rem;
 .SUBTITULO {margin-top: 5rem;}
 .IMAGECOL {
     left:0%;}
-.IMAGECOL img {margin-left:0%;}
-.INFOCOL {min-height:100%;}
+.IMAGECOL img {max-width:100%;
+    max-height:100%;
+    margin-left:0%;}
+.INFOCOL {min-height:100%; max-width:100%;}
 .NAME {
 font-size: 1.6rem;
 letter-spacing:0.3rem;}
-
+.text-me {top:1.2rem; width: 3.0rem;
+height: 3.0rem;}
 .DESTACADO {font-size: 1.3rem;
 margin-bottom: 0.8rem;
 line-height:1.6rem;
@@ -508,9 +521,10 @@ letter-spacing: 0.2rem;}
 .IMAGECOL {
     left:50%;}
 .IMAGECOL img {position:relative;
-margin-left:-50%;}
-.INFOCOL {min-width:100%;
-width: 100%;
+    max-width:100%;
+    max-height:100%;
+    margin-left:-50%;}
+.INFOCOL {min-width:100%;max-height:100%; width: 100%;
 }
 div.icono {
 float: left;
