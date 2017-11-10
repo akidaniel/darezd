@@ -46,6 +46,7 @@ background:#f6f7fd;
 line-height:1.2rem;
 color: #62647b;
 }
+.INICIODARK {background: #747691}
 
 
 .IMAGECOL{-ms-flex-preferred-size:63%;
@@ -193,6 +194,12 @@ font-weight: 300;
 color: #747691;
 text-align:center;
 }
+
+h4{font-weight: 200;
+color: #cccfe1;
+letter-spacing: 0.1rem;
+
+}
 .LINE {background: darkgray;
 height: 1px;
 margin-top: 6px;
@@ -303,7 +310,7 @@ background-image: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICON
 }
 
 
-.MAIL:hover, .GPLUS:hover, .TWITTER:hover, .FCBK:hover, .BACK:hover, .HOME:hover {
+.MAIL:hover, .GPLUS:hover, .TWITTER:hover, .FCBK:hover, .BACK:hover, .HOME:hover, .pre:hover, .post:hover {
 -moz-filter: hue-rotate(0deg) saturate(0.2) brightness(3);
 -o-filter: hue-rotate(0deg) saturate(0.2) brightness(3);
 -ms-filter: hue-rotate(0deg) saturate(0.2) brightness(3);
@@ -311,6 +318,107 @@ background-image: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICON
 filter:hue-rotate(0deg) saturate(0.2) brightness(3);
 }
 
+/*BOTONES SLIDER*/
+
+.pre {cursor:pointer;
+z-index: 1500;
+position: absolute;
+top: 1.875rem;
+right: 6.875rem;
+text-decoration: none;
+height: 3.3rem;
+width: 3.3rem;
+text-indent:-9999px;
+background: transparent url("https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICONOS/avance.png") no-repeat left top;
+background-size:cover;
+}
+  
+.post {cursor:pointer;
+z-index: 1500;
+position: absolute;
+text-indent:-9999px;
+top: 1.875rem;
+/*right: 50px;*/
+height: 3.3rem;
+width: 3.3rem;
+background: transparent url("https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICONOS/avance.png") no-repeat right top;
+ background-size:cover;
+}
+
+/*SLIDER*/
+.SLIDER {position: relative;
+margin: auto;
+width: 6.25rem;
+left: 4.64rem;
+top: -2.25rem;}
+
+.rslides {
+position: relative;
+overflow: hidden;
+width: 100%;
+padding: 0;
+margin: 0;
+margin: 0 auto;
+}
+
+.rslides_container {
+/*margin-bottom: 50px;*/
+position: relative;
+float: left;
+width: 100%;
+}
+
+.centered-btns_nav {
+z-index: 3;
+position: absolute;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+top: 30px;
+right: 95px;
+opacity: 1.0;
+text-indent: -9999px;
+overflow: hidden;
+text-decoration: none;
+height: 40px;
+width: 40px;
+background: transparent url("https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICONOS/avance.png") no-repeat left top;
+background-size:cover;
+}
+
+.centered-btns_nav:active {
+  opacity: 0;
+  }
+
+.centered-btns_nav.next {
+  left: auto;
+  background-position: right top;
+  right: 50px;
+  }
+
+.rslides {}
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+/* FIN SLIDER */
 
 
 @media only screen and (min-width:0px) and (max-width: 480px) {/* and (min-height:490px)*/
