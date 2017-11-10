@@ -22,21 +22,12 @@ text-align:center;
 
 table {border-collapse: collapse;}
  
-/*article, footer {
-padding-bottom:5px;
-min-height: 100%;
-margin-top:5px;
-position:absolute;
-left: 50%;
-margin-left: -168px;
-width: 336px;
-}*/
+
  
 .CONTAINER {
 margin-right: auto;
 margin-left: auto;
 padding: 0 3.5rem 0 3.5rem;
-position:absolute;
 text-align:left;
 }
 
