@@ -14,7 +14,7 @@ border: 0;
 vertical-align: top;
 list-style:none;
 list-style-type: none;
-text-align:center;
+text-align:left;
 }
 :focus {
 	outline: 0;
@@ -459,6 +459,15 @@ div.icono {max-width: 90%;}
 .cuarto {margin-left: 0.8rem;}
 div.iconomedio {min-width:100%}
 
+div.icono:after{
+position:absolute;
+content:" ";
+left:0;
+top:0;
+width:100%;
+bottom:0;
+z-index:9999;
+}
 }
 
 @media only screen and (min-width:481px) and (max-width: 600px) {
