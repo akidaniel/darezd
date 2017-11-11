@@ -413,7 +413,10 @@ background-size:cover;
   }
 /* FIN SLIDER */
 .FIRST {margin-top: 0;}
-#FORM, #FORMPHONE  {display:none; position: absolute;}
+#FORM {display:none; position: absolute;} 
+
+#FORMPHONE  {display:none; position: absolute; margin: auto;
+text-align: center;}
 @media only screen and (min-width:0px) and (max-width: 420px) {/* and (min-height:490px)*/
 
 #FRAME {-ms-flex-preferred-size:100%;
