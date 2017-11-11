@@ -415,7 +415,7 @@ background-size:cover;
 .FIRST {margin-top: 0;}
 #FORM {display:none; position: absolute;} 
 
-#FORMPHONE  {display:none; position: absolute; margin: auto;
+#FORMPHONE  {display:none; position: relative; margin: 0 auto;
 text-align: center;}
 @media only screen and (min-width:0px) and (max-width: 420px) {/* and (min-height:490px)*/
 
@@ -467,7 +467,7 @@ bottom:0;
 z-index:9999;
 }
 #FORMPHONE {display:block}
-.FIRST {margin-top:4rem}
+.FIRST {margin-top:1rem}
 }
 
 @media only screen and (min-width:421px) and (max-width: 600px) {
@@ -503,7 +503,7 @@ max-width: 70%;
 .cuarto {margin-left: 4rem;}
 div.iconomedio {min-width:50%}
 #FORMPHONE {display:block;}
-.FIRST {margin-top:4rem}
+.FIRST {margin-top:1rem}
 
 }
 @media only screen and (min-width:601px) and (max-width: 900px) {
@@ -540,7 +540,7 @@ float: left;
 .GALERIA {margin: 0 2rem 0 2rem}
 div.iconomedio {min-width:50%}
 #FORMPHONE {display:block; }
-.FIRST, .SECOND {margin-top: 4rem;}
+.FIRST, .SECOND {margin-top: 1rem;}
 
 }
 
