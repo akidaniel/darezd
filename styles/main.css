@@ -446,7 +446,6 @@ margin-bottom: 0.8rem;
 line-height:1.6rem;
 letter-spacing: 0.1rem;
 padding: 0 1.8rem 0 0.3rem;
-text-align:left;
 }
 .GALERIA {margin: 0 1.2rem 0 1.2rem}
 .text-me {top: 6.6rem;
@@ -500,7 +499,8 @@ max-width: 70%;
 .GALERIA {margin: 0 2rem 0 2rem}
 .cuarto {margin-left: 4rem;}
 div.iconomedio {min-width:50%}
-#FORMPHONE {display:block}
+#FORMPHONE {display:block; margin: 0 15%;}
+}
 .FIRST {margin-top:4rem}
 
 }
@@ -537,7 +537,7 @@ float: left;
 .BOTONERA {margin-top: 5rem;}
 .GALERIA {margin: 0 2rem 0 2rem}
 div.iconomedio {min-width:50%}
-#FORM {display:block}
+#FORMPHONE {display:block; margin: 0 15%;}
 
 }
 
