@@ -537,6 +537,7 @@ float: left;
 .GALERIA {margin: 0 2rem 0 2rem}
 div.iconomedio {min-width:50%}
 #FORMPHONE {display:block; margin: 0 15%;}
+.FIRST, .SECOND {margin-top: 4rem;}
 
 }
 
@@ -570,7 +571,6 @@ float: left;
 }
 div.iconomedio {min-width:33%}
 #FORM {display:block}
-.FIRST, .SECOND {margin-top: 4rem;}
 }
 
 
