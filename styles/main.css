@@ -502,7 +502,7 @@ max-width: 70%;
 .GALERIA {margin: 0 2rem 0 2rem}
 .cuarto {margin-left: 4rem;}
 div.iconomedio {min-width:50%}
-#FORMPHONE {display:block; margin: 0 15%;}
+#FORMPHONE {display:block;}
 .FIRST {margin-top:4rem}
 
 }
@@ -539,7 +539,7 @@ float: left;
 .BOTONERA {margin-top: 5rem;}
 .GALERIA {margin: 0 2rem 0 2rem}
 div.iconomedio {min-width:50%}
-#FORMPHONE {display:block; margin: 0 15%;}
+#FORMPHONE {display:block; }
 .FIRST, .SECOND {margin-top: 4rem;}
 
 }
