@@ -412,7 +412,7 @@ background-size:cover;
   border: 0;
   }
 /* FIN SLIDER */
-
+.FIRST {margin-top: 0;}
 #FORM, #FORMPHONE  {display:none; position: absolute;}
 @media only screen and (min-width:0px) and (max-width: 420px) {/* and (min-height:490px)*/
 
@@ -500,7 +500,6 @@ max-width: 70%;
 .cuarto {margin-left: 4rem;}
 div.iconomedio {min-width:50%}
 #FORMPHONE {display:block; margin: 0 15%;}
-}
 .FIRST {margin-top:4rem}
 
 }
