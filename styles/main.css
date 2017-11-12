@@ -46,9 +46,12 @@ background:#f6f7fd;
 line-height:1.2rem;
 color: #62647b;
 }
-.INICIODARK {background: #747691;align-content:center;
+.INICIODARK {background: #747691;
+align-content:center;
 margin: 0;
-padding: 0;}
+padding: 0;
+overflow: hidden;
+}
 
 
 .IMAGECOL{-ms-flex-preferred-size:63%;
