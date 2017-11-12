@@ -240,7 +240,7 @@ border-radius: 2px;
 /* FIN pop-up image */
 
 
-.SOCIAL, .SOCIALGALERIA {
+.SOCIAL {
 position:absolute;
 top:0;
 left: 50%;
@@ -421,7 +421,7 @@ background-size:cover;
 #FORMPHONE  {display:none; position: relative; margin: 0 auto;
 text-align: center;}
 
-.CATALOGOS {display:none;}
+.CATALOGOS {display:none; top:1.875rem}
 .CATALOGOS:target {display:block}
 @media only screen and (min-width:0px) and (max-width: 420px) {/* and (min-height:490px)*/
 
