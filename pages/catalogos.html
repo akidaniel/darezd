@@ -24,7 +24,17 @@
   ga('send', 'pageview');
 </script>
 
-
+<script type="text/javascript">
+$(window).on("wheel mousewheel", function(e){
+    if(e.originalEvent.deltaY > 0) {
+        e.preventDefault();
+        return;
+    } else if (e.originalEvent.wheelDeltaY < 0) {
+        e.preventDefault();
+        return;
+    }    
+});
+</script>
 
 </head>
 
