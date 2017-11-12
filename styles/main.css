@@ -139,7 +139,8 @@ line-height:0.8rem}
 .FECHA {
 line-height:1.35rem;
 font-weight:300;}
-.CABECERA{font-size:4rem;
+.CABECERA{font-family: 'Work Sans';
+font-size:4rem;
 white-space:nowrap;
 margin-bottom:3rem;
 color: #747691;
