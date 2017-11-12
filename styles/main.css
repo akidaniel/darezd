@@ -421,7 +421,7 @@ background-size:cover;
 #FORMPHONE  {display:none; position: relative; margin: 0 auto;
 text-align: center;}
 
-.CATALOGOS {margin-top:1.875rem; padding-top: 5rem; display:none;}
+.CATALOGOS {display:none;}
 .CATALOGOS:target {display:block}
 @media only screen and (min-width:0px) and (max-width: 420px) {/* and (min-height:490px)*/
 
