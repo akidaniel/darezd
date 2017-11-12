@@ -100,6 +100,7 @@ position: relative;
 max-width: 20%;
 /*margin:0 auto 1.9rem auto;*/
 }
+
 div.iconomain {max-width: 33%;}
 .iconocenter {margin-left: 28%;}
 div.icono img {
@@ -168,17 +169,19 @@ line-height: 2.2rem;
 letter-spacing: 0.35rem;
 }
 
+
 h3 span {
 font: normal 1.2rem Helvetica, Sans-Serif;
 letter-spacing: 0.03rem;
 position: absolute;
-bottom: -0.1rem;
+/*bottom: -0.1rem;*/
+color: #747691;
 margin: 0;
 left: 0;
 right: 0;
 font-weight: 300;
-color: #747691;
 text-align:center;
+z-index: 8900;
 }
 
 h4{font-weight: 200;
