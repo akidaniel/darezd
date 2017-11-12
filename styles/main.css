@@ -419,7 +419,8 @@ background-size:cover;
   }
 /* FIN SLIDER */
 .FIRST {margin-top: 0;}
-#FORM {display:none; position: absolute;} 
+#FORM {display:none; position: absolute; top: 1.6rem;
+right: 4rem;} 
 
 #FORMPHONE  {display:none; position: relative; margin: 0 auto;
 text-align: center;}
