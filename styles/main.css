@@ -466,7 +466,7 @@ div.icono {max-width: 90%;}
 .iconocenter {margin-left: 13%;}
 .cuarto {margin-left: 0.8rem;}
 div.iconomedio {min-width:100%}
-div.iconomedio:after, div.icono:after {
+div.iconomedio:after {
 position:absolute;
 content:" ";
 left:0;
