@@ -237,7 +237,7 @@ border-radius: 2px;
 /* FIN pop-up image */
 
 
-.SOCIAL {
+.SOCIAL, .SOCIALGALERIA {
 position:absolute;
 top:0;
 left: 50%;
