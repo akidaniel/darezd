@@ -50,7 +50,7 @@ color: #62647b;
 align-content:center;
 margin: 0;
 padding: 0;
-overflow: hidden;
+overflow: visible;
 }
 
 
@@ -189,7 +189,7 @@ h4{font-weight: 200;
 color: #cccfe1;
 letter-spacing: 0.1rem;
 text-align: right;
-padding-right: 0.95rem;
+padding: 0.2rem 0.95rem;
 }
 .LINE {background: darkgray;
 height: 1px;
@@ -350,7 +350,7 @@ background: transparent url("https://rawgit.com/akidaniel/darezd/gh-pages/imagen
 .SLIDER {position: absolute;
 width: 6.25rem;
 top: -1.4rem;
-right: -2rem;}
+right: -2.2rem;}
 
 .rslides {
 position: relative;
