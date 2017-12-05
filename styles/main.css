@@ -431,7 +431,7 @@ text-align: center;}
 .CATALOGOS {display:none; top:1.875rem}
 .CATALOGOS:target {display:block}
 
-@media only screen and (min-width:100px) and (max-width: 240px) {/* and (min-height:320px)*/
+@media only screen and (min-width:100px) and (max-width: 280px) {/* and (min-height:320px)*/
 #FRAME {-ms-flex-preferred-size:100%;
 flex-basis:100%;
 max-width:100%;
@@ -458,7 +458,7 @@ font-size: 1.2rem;
 letter-spacing:0.3rem;}*/
 
 .DESTACADO, .NAME {font-size: 1.3rem;
-margin-top: 0.8rem;
+margin: 0.8rem 0 0 0;
 line-height:1.5rem;
 letter-spacing: 0.1rem;
 padding: 0;
@@ -484,7 +484,7 @@ z-index:9999;
 #FORMPHONE {display:block}
 .FIRST {margin-top:1rem}
 }
-@media only screen and (min-width:241px) and (max-width: 420px) {/* and (min-height:490px)*/
+@media only screen and (min-width:281px) and (max-width: 420px) {/* and (min-height:490px)*/
 
 #FRAME {-ms-flex-preferred-size:100%;
 flex-basis:100%;
