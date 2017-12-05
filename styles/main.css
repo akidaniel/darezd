@@ -431,7 +431,7 @@ text-align: center;}
 .CATALOGOS {display:none; top:1.875rem}
 .CATALOGOS:target {display:block}
 
-@media only screen and (min-width:100px) and (max-width: 280px) {/* and (min-height:320px)*/
+@media only screen and (min-width:100px) and (max-width: 350px) {/* and (min-height:320px)*/
 #FRAME {-ms-flex-preferred-size:100%;
 flex-basis:100%;
 max-width:100%;
@@ -484,7 +484,7 @@ z-index:9999;
 #FORMPHONE {display:block}
 .FIRST {margin-top:1rem}
 }
-@media only screen and (min-width:281px) and (max-width: 420px) {/* and (min-height:490px)*/
+@media only screen and (min-width:351px) and (max-width: 420px) {/* and (min-height:490px)*/
 
 #FRAME {-ms-flex-preferred-size:100%;
 flex-basis:100%;
