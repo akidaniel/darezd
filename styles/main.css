@@ -606,7 +606,7 @@ height: 22.4rem;
 }
 
 .MARCOILU {
-max-width: 20%;}
+max-width: 33%;}
 
 .SUBTITULO {margin-top: 5rem;}
 
@@ -645,7 +645,8 @@ padding: 0px 2rem 0 2rem;
 flex-basis:50%;
 max-width:50%;
 min-height: 100%;}
-
+.MARCOILU {
+max-width: 20%;}
 .CABECERA {font-size:6rem; margin-bottom:4rem}
 .SOCIAL {
 top:93px;
