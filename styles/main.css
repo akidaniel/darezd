@@ -647,6 +647,9 @@ flex-basis:50%;
 max-width:50%;
 min-height: 100%;}
 
+.MARCOILU {
+max-width: 25%;}
+
 .CABECERA {font-size:6rem; margin-bottom:4rem}
 .SOCIAL {
 top:93px;
@@ -677,6 +680,9 @@ flex-basis:33%;
 max-width:33%;
 }
 
+.MARCOILU {
+max-width: 25%;}
+
 .SOCIAL {
 top:93px;
 margin-right: 5px;
@@ -706,6 +712,8 @@ flex-basis:25%;
 max-width:25%;
 }
 
+.MARCOILU {
+max-width: 25%;}
 .SOCIAL {
 top:93px;
 margin-right: 5px;
@@ -734,8 +742,7 @@ float: left;
 flex-basis:20%;
 max-width:20%;
 }
-.MARCOILU {
-max-width: 25%;}
+
 .SOCIAL {
 top:93px;
 margin-right: 5px;
