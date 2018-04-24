@@ -106,7 +106,7 @@ float:left;
 max-height: 100%;
 justify-content: space-between;
 box-sizing:border-box;
-width: 100%;
+max-width: 20%;
 }
 
 .ILUSTRACIONES {width:100%; margin: 0; padding: 0; display:block;}
@@ -498,6 +498,8 @@ z-index:9999;
 }
 #FORMPHONE {display:block}
 .FIRST {margin-top:1rem}
+.MARCOILU {
+max-width: 100%;}
 }
 @media only screen and (min-width:351px) and (max-width: 420px) {/* and (min-height:490px)*/
 
@@ -550,6 +552,8 @@ z-index:9999;
 }
 #FORMPHONE {display:block}
 .FIRST {margin-top:1rem}
+.MARCOILU {
+max-width: 25%;}
 }
 
 @media only screen and (min-width:421px) and (max-width: 600px) {
@@ -586,7 +590,8 @@ max-width: 70%;
 div.iconomedio {min-width:50%}
 #FORMPHONE {display:block;}
 .FIRST {margin-top:1rem}
-
+.MARCOILU {
+max-width: 25%;}
 }
 @media only screen and (min-width:601px) and (max-width: 900px) {
 .CONTAINER {
@@ -599,6 +604,10 @@ flex-basis:50%;
 max-width:50%;
 height: 22.4rem;
 }
+
+.MARCOILU {
+max-width: 25%;}
+
 .SUBTITULO {margin-top: 5rem;}
 
 .CABECERA {font-size:6rem; margin-bottom:4rem}
