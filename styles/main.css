@@ -502,7 +502,11 @@ z-index:9999;
 }
 #FORMPHONE {display:block}
 .FIRST {margin-top:1rem}
-
+.SLIDER {
+    align-items: middle;
+    left: 50%;
+}
+h4 {text-align: center;}
 }
 @media only screen and (min-width:351px) and (max-width: 420px) {/* and (min-height:490px)*/
 
