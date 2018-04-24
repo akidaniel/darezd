@@ -553,7 +553,7 @@ z-index:9999;
 #FORMPHONE {display:block}
 .FIRST {margin-top:1rem}
 .MARCOILU {
-max-width: 25%;}
+max-width: 100%;}
 }
 
 @media only screen and (min-width:421px) and (max-width: 600px) {
@@ -591,7 +591,7 @@ div.iconomedio {min-width:50%}
 #FORMPHONE {display:block;}
 .FIRST {margin-top:1rem}
 .MARCOILU {
-max-width: 25%;}
+max-width: 50%;}
 }
 @media only screen and (min-width:601px) and (max-width: 900px) {
 .CONTAINER {
@@ -606,7 +606,7 @@ height: 22.4rem;
 }
 
 .MARCOILU {
-max-width: 25%;}
+max-width: 20%;}
 
 .SUBTITULO {margin-top: 5rem;}
 
