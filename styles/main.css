@@ -644,8 +644,7 @@ padding: 0px 2rem 0 2rem;
 flex-basis:50%;
 max-width:50%;
 min-height: 100%;}
-.MARCOILU {
-max-width: 20%;}
+
 .CABECERA {font-size:6rem; margin-bottom:4rem}
 .SOCIAL {
 top:93px;
@@ -675,8 +674,7 @@ div.iconomedio {min-width:33%}
 flex-basis:33%;
 max-width:33%;
 }
-.MARCOILU {
-max-width: 20%;}
+
 .SOCIAL {
 top:93px;
 margin-right: 5px;
@@ -706,7 +704,7 @@ flex-basis:25%;
 max-width:25%;
 }
 .MARCOILU {
-max-width: 20%;}
+max-width: 25%;}
 .SOCIAL {
 top:93px;
 margin-right: 5px;
@@ -735,6 +733,8 @@ float: left;
 flex-basis:20%;
 max-width:20%;
 }
+.MARCOILU {
+max-width: 25%;}
 .SOCIAL {
 top:93px;
 margin-right: 5px;
