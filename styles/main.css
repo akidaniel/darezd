@@ -632,7 +632,6 @@ float: left;
 div.iconomedio {min-width:50%}
 #FORMPHONE {display:block; }
 .FIRST, .SECOND {margin-top: 1rem;}
-
 }
 
 @media only screen and (min-width:901px) and (max-width: 1024px) {
@@ -676,6 +675,8 @@ div.iconomedio {min-width:33%}
 flex-basis:33%;
 max-width:33%;
 }
+.MARCOILU {
+max-width: 20%;}
 .SOCIAL {
 top:93px;
 margin-right: 5px;
@@ -704,6 +705,8 @@ div.iconomedio {min-width:25%}
 flex-basis:25%;
 max-width:25%;
 }
+.MARCOILU {
+max-width: 20%;}
 .SOCIAL {
 top:93px;
 margin-right: 5px;
