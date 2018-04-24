@@ -453,6 +453,8 @@ max-width:100%;
 display:inline;
 height: 100%;
 }
+.MARCOILU {
+max-width: 100%;}
 .IMAGECOL {
     left:50%;}
 .IMAGECOL img {position:relative;
@@ -498,8 +500,7 @@ z-index:9999;
 }
 #FORMPHONE {display:block}
 .FIRST {margin-top:1rem}
-.MARCOILU {
-max-width: 100%;}
+
 }
 @media only screen and (min-width:351px) and (max-width: 420px) {/* and (min-height:490px)*/
 
@@ -563,6 +564,8 @@ flex-basis:100%;
 max-width:100%;
 display:flex;
 }
+.MARCOILU {
+max-width: 50%;}
 .CONTAINER {
 padding: 0 2.5rem 0 2.5rem;
 }
@@ -590,8 +593,7 @@ max-width: 70%;
 div.iconomedio {min-width:50%}
 #FORMPHONE {display:block;}
 .FIRST {margin-top:1rem}
-.MARCOILU {
-max-width: 50%;}
+
 }
 @media only screen and (min-width:601px) and (max-width: 900px) {
 .CONTAINER {
@@ -703,8 +705,7 @@ div.iconomedio {min-width:25%}
 flex-basis:25%;
 max-width:25%;
 }
-.MARCOILU {
-max-width: 25%;}
+
 .SOCIAL {
 top:93px;
 margin-right: 5px;
@@ -764,6 +765,7 @@ div.iconomedio {min-width:12%}
 flex-basis:16%;
 max-width:16%;
 }
+
 .SOCIAL {
 top:93px;
 margin-right: 5px;
