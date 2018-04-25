@@ -703,7 +703,7 @@ div.iconomedio {min-width:33%}
 }
 
 
-@media only screen and (min-width:1025px) and (max-width: 1454px) {
+@media only screen and (min-width:1025px) and (max-width: 1200px) {
 .CABECERA {font-size:6rem; margin-bottom:4rem}
 
 #FRAME {-ms-flex-preferred-size:33%;
@@ -744,7 +744,7 @@ max-width:25%;
 }
 
 .MARCOILU {
-max-width: 33%;}
+max-width: 25%;}
 .SOCIAL {
 top:93px;
 margin-right: 5px;
