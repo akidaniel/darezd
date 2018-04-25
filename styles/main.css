@@ -222,9 +222,33 @@ margin-top: 8px;
 margin-bottom: 4px;}
 
 .piedefoto {color:#e9e9f3; font-size:22px; font-weight:100; font-style:italic; letter-spacing: 0.075rem; /*font-family:Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;*/ }
-
+.pieilustracion {position: absolute;
+width:100%;
+  text-align: center;
+  line-height:120%;
+  font-weight:200;
+  bottom:0;
+  background-color: rgba(83, 85, 100, 0.8);}
 /*FIN TEXTOS*/
+/*SOBRETEXTO ILUSTRACIONES*/
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  /*background-color: #BCBCCF;*/
+}
 
+.ILUSTRACIONES:hover .overlay {
+  opacity: 1;
+}
+
+/*FIN SOBRETEXTO ILUSTRACIONES*/
 
 /* pop-up image */
 
