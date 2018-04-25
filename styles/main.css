@@ -79,7 +79,7 @@ padding: 4px;
 height:100%;
 }
 
-.FRAME {box-shadow: 0.075rem 0 0 0 #C9C9C9,0 0.075rem 0 0 #C9C9C9,0.075rem 0.075rem 0 0 #C9C9C9,0.075rem 0 0 0 #C9C9C9 inset,0 0.075rem 0 0 #C9C9C9 inset;
+#FRAME {box-shadow: 0.075rem 0 0 0 #C9C9C9,0 0.075rem 0 0 #C9C9C9,0.075rem 0.075rem 0 0 #C9C9C9,0.075rem 0 0 0 #C9C9C9 inset,0 0.075rem 0 0 #C9C9C9 inset;
 display: -webkit-flex;
 display: -ms-flexbox; 
 display: flex; 
