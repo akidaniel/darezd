@@ -596,7 +596,7 @@ max-width:100%;
 display:flex;
 }
 .MARCOILU {
-max-width: 50%;}
+max-width: 100%;}
 .CONTAINER {
 padding: 0 2.5rem 0 2.5rem;
 }
@@ -639,7 +639,7 @@ height: 22.4rem;
 }
 
 .MARCOILU {
-max-width: 33%;}
+max-width: 50%;}
 
 .SUBTITULO {margin-top: 5rem;}
 
@@ -679,7 +679,7 @@ max-width:50%;
 min-height: 100%;}
 
 .MARCOILU {
-max-width: 25%;}
+max-width: 33%;}
 
 .CABECERA {font-size:6rem; margin-bottom:4rem}
 .SOCIAL {
