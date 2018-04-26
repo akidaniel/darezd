@@ -470,7 +470,7 @@ right: 4rem;}
 #FORMPHONE  {display:none; position: relative; margin: 0 auto;
 text-align: center;}
 
-.CATALOGOS {display:none; top:1.875rem}
+.CATALOGOS {display:none;}
 .CATALOGOS:target {display:block}
 
 @media only screen and (min-width:100px) and (max-width: 350px) {/* and (min-height:320px)*/
