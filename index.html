@@ -43,6 +43,8 @@
 <script type="text/javascript" src="https://cdn.rawgit.com/akidaniel/PORTFOLIO/gh-pages/JS/cssQuery-p.js"></script>
 
 <link href="https://fonts.googleapis.com/css?family=Work+Sans:900" rel="stylesheet"> 
+
+
 </head>
 
 <body class="INICIO">
@@ -966,7 +968,30 @@ $('a.back-to-top, a.simple-back-to-top').click(function() {
 </div>
 
 <!--AMBIGRAMA-->
-<div id="ambigrama" class="popup"><a onClick="history.go(-1);return true;"><img src="https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/FIRMA_2018/ambigrama.gif" alt="ambigrama" title="Ambigrama"></a>
+<div id="ambigrama" class="popup"><img src="https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/FIRMA_2018/ambigrama.gif" alt="ambigrama" title="Ambigrama" style="margin-bottom:10px" id="test" onclick ="change();">
+<span class="linked CENTER" style="display: block; color: #cccfe1;" id='testText' >Ambigrama</span>
+<!--<div id="ambigrama" class="popup">
+<ul >
+  <li  class="linked CENTER"><h4>Ambigrama</h4><img src="https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/FIRMA_2018/ambigrama.gif" alt="ambigrama" width="50%" title="Ambigrama"></li>
+ <li id="" class="linked CENTER"><h4>Ambigrama light</h4><img src="https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/FIRMA_2018/ambigrama2.gif" alt="ambigrama" width="50%" title="Ambigrama light"></li></ul>
+ 
+ <div class="SLIDER">
+<div id="prev" class="pre">Previous</div>
+<div id="next" class="post" >Next</div>
+</div>-->
+<script>
+    function change() {
+   var img1 = "https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/FIRMA_2018/ambigrama.gif",
+       img2 = "https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/FIRMA_2018/ambigrama2.gif",
+	   img1Text = 'Ambigrama',
+       img2Text = 'Ambigrama light';
+   var imgElement = document.getElementById('test'),
+       imgTextElement = document.getElementById('testText');
+   
+   imgElement.src = (imgElement.src === img1)? img2 : img1;
+   imgTextElement.innerText = (imgTextElement.innerText === img1Text)? img2Text: img1Text;
+}
+</script>
 <div class="SOCIAL"><a class="BACK" onClick="history.go(-1);return true;" title="Cerrar"></a>
 <a class="FCBK" rel="img_src" href=""
     onclick="popUp=window.open(
