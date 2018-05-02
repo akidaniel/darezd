@@ -653,6 +653,16 @@ div.iconomedio {min-width:50%}
 
 .fling-minislide {text-align:left; }
 .fling-minislide figure {margin: 0 auto;}
+
+div.iconomedio:after, div.icono:after {
+position:absolute;
+content:" ";
+left:0;
+top:0;
+width:100%;
+bottom:0;
+z-index:9999;
+}
 }
 @media only screen and (min-width:601px) and (max-width: 900px) {
 .CONTAINER {
