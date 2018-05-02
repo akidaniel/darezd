@@ -473,6 +473,13 @@ text-align: center;}
 .CATALOGOS {display:none; padding-top: 70px;}
 .CATALOGOS:target {display:block}
 
+
+/*MINI SLIDER*/
+.fling-minislide {width:100%; height:100%; overflow:hidden; position:relative; text-align: center;}
+
+.fling-minislide figure{ position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 100%; height: auto; text-align: center;  }
+
+/*FIN MINI SLIDER*/
 @media only screen and (min-width:100px) and (max-width: 350px) {/* and (min-height:320px)*/
 #FRAME {-ms-flex-preferred-size:100%;
 flex-basis:100%;
@@ -535,6 +542,9 @@ h4 {text-align: center;}
 
 .CATALOGOS {padding-top:120px}
 .SPECIAL {padding-top: 400px;} 
+
+.fling-minislide {text-align:left; }
+.fling-minislide figure {margin: 0 auto;}
 }
 @media only screen and (min-width:351px) and (max-width: 420px) {/* and (min-height:490px)*/
 
@@ -591,6 +601,9 @@ z-index:9999;
 max-width: 100%;}
 .CATALOGOS {padding-top:120px}
 .SPECIAL {padding-top: 400px;} 
+
+.fling-minislide {text-align:left; }
+.fling-minislide figure {margin: 0 auto;}
 }
 
 @media only screen and (min-width:421px) and (max-width: 600px) {
@@ -631,6 +644,9 @@ div.iconomedio {min-width:50%}
 .FIRST {margin-top:1rem}
 .CATALOGOS {padding-top:120px}
 .SPECIAL {padding-top: 400px;} 
+
+.fling-minislide {text-align:left; }
+.fling-minislide figure {margin: 0 auto;}
 }
 @media only screen and (min-width:601px) and (max-width: 900px) {
 .CONTAINER {
@@ -673,6 +689,9 @@ div.iconomedio {min-width:50%}
 .FIRST, .SECOND {margin-top: 1rem;}
 .CATALOGOS {padding-top:120px}
 .SPECIAL {padding-top: 400px;} 
+
+.fling-minislide {text-align:left; }
+.fling-minislide figure {margin: 0 auto;}
 }
 
 @media only screen and (min-width:901px) and (max-width: 1024px) {
