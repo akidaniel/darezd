@@ -79,7 +79,7 @@ padding: 4px;
 height:100%;
 }
 
-#FRAME {box-shadow: 0.075rem 0 0 0 #C9C9C9,0 0.075rem 0 0 #C9C9C9,0.075rem 0.075rem 0 0 #C9C9C9,0.075rem 0 0 0 #C9C9C9 inset,0 0.075rem 0 0 #C9C9C9 inset;
+.FRAME {box-shadow: 0.075rem 0 0 0 #C9C9C9,0 0.075rem 0 0 #C9C9C9,0.075rem 0.075rem 0 0 #C9C9C9,0.075rem 0 0 0 #C9C9C9 inset,0 0.075rem 0 0 #C9C9C9 inset;
 display: -webkit-flex;
 display: -ms-flexbox; 
 display: flex; 
@@ -480,14 +480,14 @@ text-align: center;}
 .fling-minislide figure{ position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 100%; height: auto; text-align: center;}
 
 @keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}} 
-.fling-minislide figure:nth-child(1){animation-delay:0s;}
-.fling-minislide figure:nth-child(2){animation-delay:5s;}
-.fling-minislide figure:nth-child(3){animation-delay:10s;}
-.fling-minislide figure:nth-child(4){animation-delay:15s;}
+.fling-minislide figure:nth-child(4){animation-delay:0s;}
+.fling-minislide figure:nth-child(3){animation-delay:5s;}
+.fling-minislide figure:nth-child(2){animation-delay:10s;}
+.fling-minislide figure:nth-child(1){animation-delay:15s;}
 
 /*FIN MINI SLIDER*/
 @media only screen and (min-width:100px) and (max-width: 350px) {/* and (min-height:320px)*/
-#FRAME {-ms-flex-preferred-size:100%;
+.FRAME {-ms-flex-preferred-size:100%;
 flex-basis:100%;
 max-width:100%;
 display:inline;
@@ -529,7 +529,7 @@ div.icono {max-width: 90%;}
 .iconocenter {margin-left: 13%;}
 .cuarto {margin-left: 0.8rem;}
 div.iconomedio {min-width:100%}
-div.iconomedio:after,  div.icono:after {
+div.iconomedio:after {
 position:absolute;
 content:" ";
 left:0;
@@ -554,7 +554,7 @@ h4 {text-align: center;}
 }
 @media only screen and (min-width:351px) and (max-width: 420px) {/* and (min-height:490px)*/
 
-#FRAME {-ms-flex-preferred-size:100%;
+.FRAME {-ms-flex-preferred-size:100%;
 flex-basis:100%;
 max-width:100%;
 display:inline;
@@ -592,7 +592,7 @@ div.icono {max-width: 90%;}
 .iconocenter {margin-left: 13%;}
 .cuarto {margin-left: 0.8rem;}
 div.iconomedio {min-width:100%}
-div.iconomedio:after, div.icono:after {
+div.iconomedio:after {
 position:absolute;
 content:" ";
 left:0;
@@ -614,7 +614,7 @@ max-width: 100%;}
 
 @media only screen and (min-width:421px) and (max-width: 600px) {
 
-#FRAME {-ms-flex-preferred-size:100%;
+.FRAME {-ms-flex-preferred-size:100%;
 flex-basis:100%;
 max-width:100%;
 display:flex;
@@ -653,23 +653,13 @@ div.iconomedio {min-width:50%}
 
 .fling-minislide {text-align:left; }
 .fling-minislide figure {margin: 0 auto;}
-
-div.iconomedio:after, div.icono:after {
-position:absolute;
-content:" ";
-left:0;
-top:0;
-width:100%;
-bottom:0;
-z-index:9999;
-}
 }
 @media only screen and (min-width:601px) and (max-width: 900px) {
 .CONTAINER {
 padding: 0px 4rem 0 4rem;
 }
 
-#FRAME {display:inline;
+.FRAME {display:inline;
 -ms-flex-preferred-size:50%;
 flex-basis:50%;
 max-width:50%;
@@ -715,7 +705,7 @@ div.iconomedio {min-width:50%}
 .CONTAINER {
 padding: 0px 2rem 0 2rem;
 }
-#FRAME {display:flex;
+.FRAME {display:flex;
 -ms-flex-preferred-size:50%;
 flex-basis:50%;
 max-width:50%;
@@ -749,7 +739,7 @@ div.iconomedio {min-width:33%}
 @media only screen and (min-width:1025px) and (max-width: 1200px) {
 .CABECERA {font-size:6rem; margin-bottom:4rem}
 
-#FRAME {-ms-flex-preferred-size:33%;
+.FRAME {-ms-flex-preferred-size:33%;
 flex-basis:33%;
 max-width:33%;
 }
@@ -781,7 +771,7 @@ div.iconomedio {min-width:25%}
 @media only screen and (min-width:1201px) and (max-width: 1454px) {
 .CABECERA {font-size:6rem; margin-bottom:4rem}
 
-#FRAME {-ms-flex-preferred-size:25%;
+.FRAME {-ms-flex-preferred-size:25%;
 flex-basis:25%;
 max-width:25%;
 }
@@ -809,10 +799,10 @@ float: left;
 }
 
 @media only screen and (min-width:1455px) and (max-width: 2000px) {
-.GALERIA {margin: 0 15rem;}
+	.GALERIA {margin: 0 15rem;}
 .CABECERA {font-size:6rem; margin-bottom:4rem}
 
-#FRAME {-ms-flex-preferred-size:20%;
+.FRAME {-ms-flex-preferred-size:20%;
 flex-basis:20%;
 max-width:20%;
 }
@@ -840,10 +830,10 @@ div.iconomedio {min-width:12%}
 }
 
 @media only screen and (min-width:2001px){
-.GALERIA {margin: 0 15rem;}
+	.GALERIA {margin: 0 30rem;}
 .CABECERA {font-size:6rem; margin-bottom:4rem}
 
-#FRAME {-ms-flex-preferred-size:16%;
+.FRAME {-ms-flex-preferred-size:16%;
 flex-basis:16%;
 max-width:16%;
 }
