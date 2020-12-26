@@ -530,7 +530,8 @@ padding: 0;
 width: 3rem;}
 div.icono {max-width: 90%;}
 .iconocenter {flex-direction: column;
-    align-items: flex-end;}
+    align-items: center;
+    margin-left: 6%;}
 .cuarto {margin-left: 0.8rem;}
 div.iconomedio {min-width:100%}
 div.iconomedio:after {
@@ -594,7 +595,8 @@ padding: 0 1.3rem;
 width: 3rem;}
 div.icono {max-width: 90%;}
 .iconocenter {flex-direction: column;
-    align-items: flex-end;}
+    align-items: center;
+    margin-left: 6%;}
 .cuarto {margin-left: 0.8rem;}
 div.iconomedio {min-width:100%}
 div.iconomedio:after {
@@ -646,7 +648,8 @@ margin-bottom: 0.8rem;
 line-height:1.6rem;
 letter-spacing: 0.2rem;}
 .iconocenter {flex-direction: column;
-    align-items: flex-end;}
+    align-items: center;
+    margin-left: 6%;}
 
 div.icono {
 max-width: 70%;
