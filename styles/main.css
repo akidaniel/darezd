@@ -121,7 +121,10 @@ max-width: 20%;
 }
 
 div.iconomain {max-width: 33%;}
-.iconocenter {margin-left: 28%;}
+.iconocenter {margin-left: 2%;
+    display: flex;
+    justify-content: center;
+    align-content: center;}
 div.icono img {
 width: 100%;
 height: auto;
@@ -526,7 +529,7 @@ padding: 0;
 .text-me {top: 6.6rem;
 width: 3rem;}
 div.icono {max-width: 90%;}
-.iconocenter {margin-left: 13%;}
+/**.iconocenter {margin-left: 13%;}**/
 .cuarto {margin-left: 0.8rem;}
 div.iconomedio {min-width:100%}
 div.iconomedio:after {
@@ -589,7 +592,7 @@ padding: 0 1.3rem;
 .text-me {top: 6.6rem;
 width: 3rem;}
 div.icono {max-width: 90%;}
-.iconocenter {margin-left: 13%;}
+/**.iconocenter {margin-left: 13%;}**/
 .cuarto {margin-left: 0.8rem;}
 div.iconomedio {min-width:100%}
 div.iconomedio:after {
