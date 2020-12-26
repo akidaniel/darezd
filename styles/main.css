@@ -643,6 +643,8 @@ height: 3.0rem;}
 margin-bottom: 0.8rem;
 line-height:1.6rem;
 letter-spacing: 0.2rem;}
+.iconocenter {margin-left: 13%; display:block}
+
 div.icono {
 max-width: 70%;
 }
