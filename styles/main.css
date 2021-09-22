@@ -775,7 +775,7 @@ div.icono {
 float: left;
 }
 div.iconomedio {min-width:25%}
-#FORM {display:block}
+#FORM {display:block; margin-bottom: 1rem;}
 
 }
 
