@@ -608,7 +608,7 @@ width:100%;
 bottom:0;
 z-index:9999;
 }
-#FORMPHONE {display:block}
+#FORMPHONE {display:block; margin-bottom: 1rem;}
 .FIRST {margin-top:1rem}
 .MARCOILU {
 max-width: 100%;}
@@ -775,7 +775,7 @@ div.icono {
 float: left;
 }
 div.iconomedio {min-width:25%}
-#FORM {display:block; margin-bottom: 1rem;}
+#FORM {display:block;}
 
 }
 
