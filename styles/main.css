@@ -93,8 +93,8 @@ flex-basis:100%;
 float:left;
 background: #FFFFFF;
 max-height: 100%;
-justify-content: space-between;
-box-sizing:border-box;
+/*justify-content: space-between;
+box-sizing:border-box;*/
 height: 16rem;
 width: 100%;
 }
